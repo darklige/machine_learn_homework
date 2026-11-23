@@ -1,0 +1,182 @@
+{
+ "1": {
+  "threshold": 0.0015111672224605854,
+  "best_by_val": "LightGBM",
+  "test_class_dist": {
+   "0": 0.645,
+   "1": 0.155,
+   "2": 0.2
+  },
+  "params": {
+   "Majority": {},
+   "Momentum": {},
+   "Logistic": {
+    "C": 0.1
+   },
+   "KNN": {
+    "pca": 5,
+    "k": 100,
+    "w": "uniform"
+   },
+   "SVC": {
+    "C": 3,
+    "gamma": "scale"
+   },
+   "DecisionTree": {
+    "max_depth": 3,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt"
+   },
+   "XGBoost": {
+    "max_depth": 3,
+    "n_estimators": 400,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 350,
+    "learning_rate": 0.04576402743755159,
+    "num_leaves": 15,
+    "max_depth": 2,
+    "min_child_samples": 57,
+    "subsample": 0.6597167590407488,
+    "colsample_bytree": 0.45821860612797444,
+    "reg_lambda": 0.25677871771172245,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 6,
+    "iterations": 600,
+    "l2_leaf_reg": 3
+   },
+   "SoftVote(top3)": [
+    "LightGBM",
+    "XGBoost",
+    "CatBoost"
+   ]
+  }
+ },
+ "7": {
+  "threshold": 0.007987472722191136,
+  "best_by_val": "RandomForest",
+  "test_class_dist": {
+   "0": 0.738,
+   "1": 0.168,
+   "2": 0.094
+  },
+  "params": {
+   "Majority": {},
+   "Momentum": {},
+   "Logistic": {
+    "C": 1
+   },
+   "KNN": {
+    "pca": 5,
+    "k": 20,
+    "w": "distance"
+   },
+   "SVC": {
+    "C": 3,
+    "gamma": "scale"
+   },
+   "DecisionTree": {
+    "max_depth": 4,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": 5,
+    "min_samples_leaf": 5,
+    "max_features": 0.3
+   },
+   "XGBoost": {
+    "max_depth": 3,
+    "n_estimators": 200,
+    "min_child_weight": 20
+   },
+   "LightGBM": {
+    "n_estimators": 200,
+    "learning_rate": 0.031943641205724904,
+    "num_leaves": 15,
+    "max_depth": 3,
+    "min_child_samples": 24,
+    "subsample": 0.516102907744505,
+    "colsample_bytree": 0.7618036051931272,
+    "reg_lambda": 0.005056467477007837,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 3,
+    "iterations": 600,
+    "l2_leaf_reg": 3
+   },
+   "SoftVote(top3)": [
+    "RandomForest",
+    "DecisionTree",
+    "CatBoost"
+   ]
+  }
+ },
+ "30": {
+  "threshold": 0.02149968194055152,
+  "best_by_val": "KNN",
+  "test_class_dist": {
+   "0": 0.921,
+   "1": 0.079,
+   "2": NaN
+  },
+  "params": {
+   "Majority": {},
+   "Momentum": {},
+   "Logistic": {
+    "C": 0.01
+   },
+   "KNN": {
+    "pca": 10,
+    "k": 100,
+    "w": "uniform"
+   },
+   "SVC": {
+    "C": 1,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 2,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": 3,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt"
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 400,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 400,
+    "learning_rate": 0.022817840250370116,
+    "num_leaves": 11,
+    "max_depth": 5,
+    "min_child_samples": 73,
+    "subsample": 0.9439693345797044,
+    "colsample_bytree": 0.574377342906481,
+    "reg_lambda": 0.0882395973051324,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 3,
+    "iterations": 300,
+    "l2_leaf_reg": 3
+   },
+   "SoftVote(top3)": [
+    "KNN",
+    "SVC",
+    "LightGBM"
+   ]
+  }
+ }
+}

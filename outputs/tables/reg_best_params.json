@@ -1,0 +1,216 @@
+{
+ "best_by_val": {
+  "1": "WeightedAvg(top3)",
+  "7": "KNN",
+  "30": "KNN"
+ },
+ "params": {
+  "1": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 3000
+   },
+   "Lasso": {
+    "alpha": 0.001
+   },
+   "ElasticNet": {
+    "alpha": 0.001,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 5,
+    "k": 100,
+    "w": "uniform"
+   },
+   "SVR": {
+    "C": 1,
+    "eps": 0.1,
+    "gamma": "scale"
+   },
+   "DecisionTree": {
+    "max_depth": 2,
+    "min_samples_leaf": 20
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 20,
+    "max_features": 0.3
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 200,
+    "min_child_weight": 20
+   },
+   "LightGBM": {
+    "n_estimators": 150,
+    "learning_rate": 0.0492956361739396,
+    "num_leaves": 21,
+    "max_depth": 6,
+    "min_child_samples": 80,
+    "subsample": 0.5073419046462739,
+    "colsample_bytree": 0.39326701365678507,
+    "reg_lambda": 0.0017573205262349872,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 6,
+    "iterations": 300,
+    "l2_leaf_reg": 10
+   },
+   "WeightedAvg(top3)": {
+    "LightGBM": 0.338,
+    "RandomForest": 0.341,
+    "DecisionTree": 0.322
+   },
+   "Stacking": {
+    "alpha": 1.0,
+    "LightGBM": 0.216,
+    "RandomForest": 0.212,
+    "DecisionTree": 0.197,
+    "CatBoost": 0.177,
+    "XGBoost": 0.199
+   }
+  },
+  "7": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 3000
+   },
+   "Lasso": {
+    "alpha": 0.01
+   },
+   "ElasticNet": {
+    "alpha": 0.01,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 10,
+    "k": 100,
+    "w": "uniform"
+   },
+   "SVR": {
+    "C": 0.1,
+    "eps": 0.1,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 3,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "max_features": 0.3
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 200,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 150,
+    "learning_rate": 0.01320547269917319,
+    "num_leaves": 27,
+    "max_depth": 6,
+    "min_child_samples": 60,
+    "subsample": 0.7148510559860182,
+    "colsample_bytree": 0.779645960404754,
+    "reg_lambda": 24.12215576818324,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 4,
+    "iterations": 300,
+    "l2_leaf_reg": 3
+   },
+   "WeightedAvg(top3)": {
+    "KNN": 0.349,
+    "SVR": 0.335,
+    "LightGBM": 0.316
+   },
+   "Stacking": {
+    "alpha": 1.0,
+    "KNN": 0.256,
+    "SVR": 0.218,
+    "LightGBM": 0.19,
+    "CatBoost": 0.184,
+    "RandomForest": 0.152
+   }
+  },
+  "30": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 1000
+   },
+   "Lasso": {
+    "alpha": 0.01
+   },
+   "ElasticNet": {
+    "alpha": 0.01,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 10,
+    "k": 100,
+    "w": "distance"
+   },
+   "SVR": {
+    "C": 0.1,
+    "eps": 0.5,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 2,
+    "min_samples_leaf": 20
+   },
+   "RandomForest": {
+    "max_depth": 3,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt"
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 200,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 100,
+    "learning_rate": 0.011220820554251516,
+    "num_leaves": 14,
+    "max_depth": 2,
+    "min_child_samples": 14,
+    "subsample": 0.532973128481952,
+    "colsample_bytree": 0.8737467661164676,
+    "reg_lambda": 0.0016367688608910935,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 3,
+    "iterations": 600,
+    "l2_leaf_reg": 3
+   },
+   "WeightedAvg(top3)": {
+    "KNN": 0.423,
+    "Ridge": 0.3,
+    "Lasso": 0.277
+   },
+   "Stacking": {
+    "alpha": 1.0,
+    "KNN": 0.443,
+    "Ridge": 0.224,
+    "Lasso": 0.191,
+    "SVR": 0.075,
+    "ElasticNet": 0.067
+   }
+  }
+ }
+}

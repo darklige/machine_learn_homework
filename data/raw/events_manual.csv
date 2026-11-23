@@ -1,0 +1,34 @@
+date_start,date_end,type,name,note
+2024-02-06,2024-02-06,case_release,Kilowatt Case 上线,CS2 首个新武器箱
+2024-10-02,2024-10-02,case_release,The Armory 更新 + Gallery Case,军械库通行证上线
+2025-03-31,2025-03-31,case_release,Fever Case 上线,Spring Forward 更新
+2025-09-17,2025-09-17,case_release,Sealed Genesis Terminal 上线,首个免钥匙终端型容器
+2026-03-11,2026-03-11,case_release,Sealed Dead Hand Terminal 上线,Recoil Case 同日移出掉落池
+2025-10-22,2025-10-22,shock,汰换合同规则更新（5 件隐秘级可合成刀/手套）,10-23 起刀/手套价格暴跌
+2024-03-17,2024-03-31,major,PGL Major Copenhagen 2024,
+2024-11-30,2024-12-15,major,Perfect World Shanghai Major 2024,
+2025-06-03,2025-06-22,major,BLAST.tv Austin Major 2025,
+2025-11-24,2025-12-14,major,StarLadder Budapest Major 2025,
+2026-06-02,2026-06-21,major,IEM Cologne Major 2026,
+2026-11-24,2026-12-13,major,PGL Major Singapore 2026,
+2023-12-21,2024-01-04,steam_sale,Steam 冬季特卖 2023,日期为近似值
+2024-03-14,2024-03-21,steam_sale,Steam 春季特卖 2024,日期为近似值
+2024-06-27,2024-07-11,steam_sale,Steam 夏季特卖 2024,日期为近似值
+2024-11-27,2024-12-04,steam_sale,Steam 秋季特卖 2024,日期为近似值
+2024-12-19,2025-01-02,steam_sale,Steam 冬季特卖 2024,日期为近似值
+2025-03-13,2025-03-20,steam_sale,Steam 春季特卖 2025,日期为近似值
+2025-06-26,2025-07-10,steam_sale,Steam 夏季特卖 2025,日期为近似值
+2025-09-29,2025-10-06,steam_sale,Steam 秋季特卖 2025,
+2025-12-18,2026-01-05,steam_sale,Steam 冬季特卖 2025,日期为近似值
+2026-03-19,2026-03-26,steam_sale,Steam 春季特卖 2026,日期为近似值
+2026-06-25,2026-07-09,steam_sale,Steam 夏季特卖 2026,日期为近似值
+2026-10-01,2026-10-08,steam_sale,Steam 秋季特卖 2026,
+2024-02-10,2024-02-17,cn_holiday,春节 2024,
+2024-05-01,2024-05-05,cn_holiday,劳动节 2024,
+2024-10-01,2024-10-07,cn_holiday,国庆节 2024,
+2025-01-28,2025-02-04,cn_holiday,春节 2025,
+2025-05-01,2025-05-05,cn_holiday,劳动节 2025,
+2025-10-01,2025-10-08,cn_holiday,国庆节 2025,
+2026-02-15,2026-02-23,cn_holiday,春节 2026,日期为近似值
+2026-05-01,2026-05-05,cn_holiday,劳动节 2026,
+2026-10-01,2026-10-07,cn_holiday,国庆节 2026,

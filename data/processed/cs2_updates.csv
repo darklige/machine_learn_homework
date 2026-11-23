@@ -1,0 +1,92 @@
+date,title,updateType,marketImpactLevel,gameplayImpactLevel
+2026-11-20,[代码更新]安全加固与战队名称展示修复,CODE_UPDATE,低,低
+2026-11-19,[代码更新]Major参赛队伍新增种子排名,CODE_UPDATE,低,低
+2026-11-19,[公告更新]瑞士上线X光扫描器开箱新规,ANNOUNCEMENT_UPDATE,中,低
+2026-11-18,[代码更新]Major商店贴纸价格档更新,CODE_UPDATE,中,低
+2026-11-18,[代码更新]新加坡Major全面上线,CODE_UPDATE,高,高
+2026-11-18,[公告更新]新加坡Major与音乐盒更新,ANNOUNCEMENT_UPDATE,高,中
+2026-11-12,[代码更新]视差贴图与回防机器人AI,CODE_UPDATE,低,中
+2026-11-12,[公告更新]CS2 修复动画与渲染卡死问题,ANNOUNCEMENT_UPDATE,低,中
+2026-11-05,[代码更新]Retake提速与脚本接口扩展,CODE_UPDATE,低,中
+2026-11-05,[公告更新]CS2：Retakes优化与脚本API,ANNOUNCEMENT_UPDATE,低,中
+2026-11-03,[代码更新]对局详情与工坊状态优化,CODE_UPDATE,低,低
+2026-10-31,[代码更新]回合胜负音乐不再循环,CODE_UPDATE,低,低
+2026-10-29,[代码更新]新步枪LAR与大头模式,CODE_UPDATE,中,中
+2026-10-29,[公告更新]静默换弹新增选项与多项修复,ANNOUNCEMENT_UPDATE,低,中
+2026-10-23,[公告更新]CS2地图脚本更新,ANNOUNCEMENT_UPDATE,低,中
+2026-10-23,[代码更新]语音处理与脚本功能维护更新,CODE_UPDATE,低,中
+2026-10-21,[代码更新]10月引擎版本例行更新,CODE_UPDATE,低,低
+2026-10-15,[代码更新]回放控制器界面小更新,CODE_UPDATE,低,低
+2026-10-15,[代码更新]回放升级与掉落调整,CODE_UPDATE,低,中
+2026-10-15,[公告更新]Demo回放与AUG动画更新,ANNOUNCEMENT_UPDATE,低,低
+2026-10-09,[代码更新]AUG换弹提速与音频调整,CODE_UPDATE,低,中
+2026-10-09,[公告更新]CS2杂项更新：AUG换弹加速,ANNOUNCEMENT_UPDATE,低,中
+2026-10-06,[代码更新]创意工坊地图管理升级,CODE_UPDATE,低,中
+2026-10-06,[公告更新]杂项优化：工坊地图管理,ANNOUNCEMENT_UPDATE,低,低
+2026-10-03,[代码更新]小版本修复与工坊准星更新,CODE_UPDATE,低,低
+2026-10-03,[公告更新]杂项更新：购买菜单展示手套,ANNOUNCEMENT_UPDATE,低,低
+2026-10-01,[代码更新]科隆胶囊与准星设置更新,CODE_UPDATE,中,中
+2026-10-01,[代码更新]科隆Major胶囊定价规则调整,CODE_UPDATE,中,中
+2026-10-01,[代码更新]科隆胶囊定价与准星更新,CODE_UPDATE,中,低
+2026-10-01,[公告更新]准心系统更新与杂项修复,ANNOUNCEMENT_UPDATE,低,中
+2026-09-29,[代码更新]宠物拍照音效与举报窗口优化,CODE_UPDATE,低,低
+2026-09-29,[公告更新]Rush地图细节修复更新,ANNOUNCEMENT_UPDATE,低,低
+2026-09-26,[代码更新]Major商店代币到期提醒上线,CODE_UPDATE,中,低
+2026-09-26,[公告更新]CS2更新：RUSH修复与杂项,ANNOUNCEMENT_UPDATE,低,低
+2026-09-25,[代码更新]9月24日小幅版本更新,CODE_UPDATE,低,低
+2026-09-25,[代码更新]Major商店入口改版,CODE_UPDATE,低,中
+2026-09-25,[公告更新]CS2修复静音装填漏洞,ANNOUNCEMENT_UPDATE,低,低
+2026-09-24,[代码更新]准星新样式与Rush模式调整,CODE_UPDATE,低,中
+2026-09-24,[公告更新]RUSH与准星系统更新,ANNOUNCEMENT_UPDATE,低,中
+2026-09-23,[代码更新]准星调整与小幅版本更新,CODE_UPDATE,低,低
+2026-09-23,[公告更新]新模式Rush与多项玩法更新,ANNOUNCEMENT_UPDATE,中,高
+2026-09-23,[代码更新]音乐盒、宠物与Rush模式,CODE_UPDATE,高,高
+2026-09-23,[公告更新]CS2推出突袭模式与贴纸贴C4,ANNOUNCEMENT_UPDATE,高,高
+2026-09-10,[公告更新]Cache地图修复与Demo聊天加密,ANNOUNCEMENT_UPDATE,低,低
+2026-09-10,[代码更新]观战加密与自定义相机更新,CODE_UPDATE,低,中
+2026-08-29,[代码更新]CS2 小版本更新,CODE_UPDATE,低,低
+2026-08-27,[代码更新]引擎与Panorama小幅更新,CODE_UPDATE,低,低
+2026-08-26,[代码更新]CS2 自定义游戏 UI 支持,CODE_UPDATE,低,低
+2026-08-25,[公告更新]CS2 地图脚本更新,ANNOUNCEMENT_UPDATE,低,低
+2026-08-25,[代码更新]自定义 HUD 系统上线,CODE_UPDATE,低,低
+2026-08-20,[公告更新]CS2 地图更新与修复,ANNOUNCEMENT_UPDATE,低,低
+2026-08-13,[代码更新]CS2 地图截图与引擎更新,CODE_UPDATE,低,低
+2026-08-13,[公告更新]地图修复与脚本API更新,ANNOUNCEMENT_UPDATE,低,中
+2026-08-11,[代码更新]客户端技术微更新,CODE_UPDATE,低,低
+2026-08-11,[代码更新]新增 VACNet 标注入口,CODE_UPDATE,低,低
+2026-08-04,[公告更新]CS2 更新：地图修复与脚本增强,ANNOUNCEMENT_UPDATE,低,中
+2026-07-29,[公告更新]科隆2026印花系列上线,ANNOUNCEMENT_UPDATE,高,低
+2026-07-21,[公告更新]炸弹交互与地图更新,ANNOUNCEMENT_UPDATE,低,中
+2026-07-21,[代码更新]工坊开放与视觉优化,CODE_UPDATE,低,中
+2026-07-17,[代码更新]创意工坊新增三个活动主题,CODE_UPDATE,低,低
+2026-07-15,[代码更新]社区地图更新及军械库展示升级,CODE_UPDATE,中,中
+2026-07-09,[代码更新]CS2 例行构建更新,CODE_UPDATE,低,低
+2026-07-09,[代码更新]仅构建版本递增,CODE_UPDATE,低,低
+2026-07-09,[代码更新]军械库换新 + Cache 回归现役,CODE_UPDATE,高,高
+2026-07-07,[代码更新]仅版本号更新无内容变更,CODE_UPDATE,低,低
+2026-07-04,[代码更新]Jackass 贴纸胶囊上线,CODE_UPDATE,高,低
+2026-07-03,[代码更新]Major商店3D预览懒加载,CODE_UPDATE,低,低
+2026-07-02,[代码更新]引擎渲染微调更新,CODE_UPDATE,低,低
+2026-07-02,[代码更新]Major 商店冠军横幅显示修复,CODE_UPDATE,低,低
+2026-07-02,[代码更新]版本号递增，无实质更新,CODE_UPDATE,低,低
+2026-07-01,[代码更新]Major 商店样式微调,CODE_UPDATE,低,低
+2026-07-01,[代码更新]Falcons冠军贴纸与挂件上线,CODE_UPDATE,高,中
+2026-06-17,[代码更新]武库扫描奖励交互修复,CODE_UPDATE,中,中
+2026-06-15,[代码更新]赛事预测支持可变赛制,CODE_UPDATE,低,低
+2026-06-11,[代码更新]Major贴纸7日趋势与库存扩容,CODE_UPDATE,中,中
+2026-06-02,[代码更新]Major商店纪念品交互优化,CODE_UPDATE,低,低
+2026-05-30,[代码更新]纪念品折扣系统与斗鱼直播接入,CODE_UPDATE,高,低
+2026-05-29,[代码更新]Major商店收藏夹与趋势榜优化,CODE_UPDATE,中,低
+2026-05-23,[代码更新]战队名称规范化与UI修复,CODE_UPDATE,低,低
+2026-05-22,[代码更新]Major 商店热修复,CODE_UPDATE,低,低
+2026-05-22,[代码更新]IEM Cologne 2026 Major 更新,CODE_UPDATE,高,高
+2026-05-21,[代码更新]小型维护更新,CODE_UPDATE,低,低
+2026-05-19,[代码更新]死城之谜材质与着色器优化,CODE_UPDATE,低,低
+2026-05-16,[代码更新]音乐盒新增MVP颂歌与死城之谜更新,CODE_UPDATE,中,中
+2026-05-12,[代码更新]重播兼容与引擎维护,CODE_UPDATE,低,低
+2026-05-08,[代码更新]6款全新音乐盒与商店 Nightmode II 上线,CODE_UPDATE,高,低
+2026-05-01,[代码更新]运动系统优化与新增周常任务,CODE_UPDATE,低,低
+2026-04-30,[代码更新]引擎 Schema 与着色器大规模更新,CODE_UPDATE,低,低
+2026-04-29,[代码更新]Cache 环境音效子事件调整,CODE_UPDATE,低,低
+2026-04-29,[代码更新]死城之谜地点标注回归,CODE_UPDATE,中,中
+2026-04-28,[代码更新]渲染引擎重构与文本清理,CODE_UPDATE,低,中

@@ -1,0 +1,216 @@
+{
+ "best_by_val": {
+  "1": "WeightedAvg(top3)",
+  "7": "KNN",
+  "30": "KNN"
+ },
+ "params": {
+  "1": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 3000
+   },
+   "Lasso": {
+    "alpha": 0.001
+   },
+   "ElasticNet": {
+    "alpha": 0.001,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 20,
+    "k": 100,
+    "w": "distance"
+   },
+   "SVR": {
+    "C": 0.3,
+    "eps": 0.1,
+    "gamma": "scale"
+   },
+   "DecisionTree": {
+    "max_depth": 2,
+    "min_samples_leaf": 20
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "max_features": 0.3
+   },
+   "XGBoost": {
+    "max_depth": 3,
+    "n_estimators": 200,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 150,
+    "learning_rate": 0.045876363112653036,
+    "num_leaves": 27,
+    "max_depth": 5,
+    "min_child_samples": 62,
+    "subsample": 0.5123861514552402,
+    "colsample_bytree": 0.555130676106147,
+    "reg_lambda": 0.1238787687252033,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 6,
+    "iterations": 300,
+    "l2_leaf_reg": 3
+   },
+   "WeightedAvg(top3)": {
+    "LightGBM": 0.332,
+    "RandomForest": 0.343,
+    "DecisionTree": 0.324
+   },
+   "Stacking": {
+    "alpha": 0.0,
+    "LightGBM": 0.273,
+    "RandomForest": 0.601,
+    "DecisionTree": 0.0,
+    "CatBoost": 0.0,
+    "XGBoost": 0.125
+   }
+  },
+  "7": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 3000
+   },
+   "Lasso": {
+    "alpha": 0.01
+   },
+   "ElasticNet": {
+    "alpha": 0.01,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 20,
+    "k": 50,
+    "w": "uniform"
+   },
+   "SVR": {
+    "C": 0.3,
+    "eps": 0.1,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 3,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 20,
+    "max_features": 0.3
+   },
+   "XGBoost": {
+    "max_depth": 3,
+    "n_estimators": 200,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 100,
+    "learning_rate": 0.017638353330957705,
+    "num_leaves": 31,
+    "max_depth": 6,
+    "min_child_samples": 46,
+    "subsample": 0.544355750780442,
+    "colsample_bytree": 0.8235742218113244,
+    "reg_lambda": 0.005415352807327564,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 6,
+    "iterations": 300,
+    "l2_leaf_reg": 10
+   },
+   "WeightedAvg(top3)": {
+    "KNN": 0.352,
+    "SVR": 0.353,
+    "LightGBM": 0.296
+   },
+   "Stacking": {
+    "alpha": 0.03,
+    "KNN": 0.494,
+    "SVR": 0.506,
+    "LightGBM": 0.0,
+    "RandomForest": 0.0,
+    "Lasso": 0.0
+   }
+  },
+  "30": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 3000
+   },
+   "Lasso": {
+    "alpha": 0.01
+   },
+   "ElasticNet": {
+    "alpha": 0.01,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 10,
+    "k": 50,
+    "w": "uniform"
+   },
+   "SVR": {
+    "C": 0.3,
+    "eps": 0.1,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 4,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": 3,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt"
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 200,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 150,
+    "learning_rate": 0.03144751469673878,
+    "num_leaves": 18,
+    "max_depth": 5,
+    "min_child_samples": 64,
+    "subsample": 0.5897832719237577,
+    "colsample_bytree": 0.4468118433347387,
+    "reg_lambda": 0.0012607843747859835,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 6,
+    "iterations": 300,
+    "l2_leaf_reg": 10
+   },
+   "WeightedAvg(top3)": {
+    "KNN": 0.504,
+    "Ridge": 0.253,
+    "SVR": 0.243
+   },
+   "Stacking": {
+    "alpha": 0.3,
+    "KNN": 0.955,
+    "Ridge": 0.021,
+    "SVR": 0.0,
+    "RandomForest": 0.025,
+    "CatBoost": 0.0
+   }
+  }
+ }
+}

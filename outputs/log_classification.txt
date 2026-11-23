@@ -1,0 +1,33 @@
+  h= 1 Majority      val MacroF1=0.180
+  h= 1 Momentum      val MacroF1=0.427
+  h= 1 Logistic      val MacroF1=0.350
+  h= 1 KNN           val MacroF1=0.381
+  h= 1 SVC           val MacroF1=0.385
+  h= 1 DecisionTree  val MacroF1=0.399
+  h= 1 RandomForest  val MacroF1=0.412
+  h= 1 XGBoost       val MacroF1=0.495
+  h= 1 LightGBM      val MacroF1=0.465
+  h= 1 CatBoost      val MacroF1=0.452
+  h=1 阈值 θ=0.0015，验证集最优: XGBoost，测试集类别分布 {0: 0.645, 1: 0.155, 2: 0.2}
+  h= 7 Majority      val MacroF1=0.128
+  h= 7 Momentum      val MacroF1=0.282
+  h= 7 Logistic      val MacroF1=0.342
+  h= 7 KNN           val MacroF1=0.329
+  h= 7 SVC           val MacroF1=0.366
+  h= 7 DecisionTree  val MacroF1=0.358
+  h= 7 RandomForest  val MacroF1=0.348
+  h= 7 XGBoost       val MacroF1=0.358
+  h= 7 LightGBM      val MacroF1=0.392
+  h= 7 CatBoost      val MacroF1=0.375
+  h=7 阈值 θ=0.0080，验证集最优: LightGBM，测试集类别分布 {0: 0.738, 1: 0.168, 2: 0.094}
+  h=30 Majority      val MacroF1=0.111
+  h=30 Momentum      val MacroF1=0.258
+  h=30 Logistic      val MacroF1=0.419
+  h=30 KNN           val MacroF1=0.573
+  h=30 SVC           val MacroF1=0.496
+  h=30 DecisionTree  val MacroF1=0.233
+  h=30 RandomForest  val MacroF1=0.441
+  h=30 XGBoost       val MacroF1=0.328
+  h=30 LightGBM      val MacroF1=0.386
+  h=30 CatBoost      val MacroF1=0.319
+  h=30 阈值 θ=0.0215，验证集最优: KNN，测试集类别分布 {0: 0.921, 1: 0.079, 2: nan}

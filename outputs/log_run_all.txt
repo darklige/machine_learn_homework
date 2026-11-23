@@ -1,0 +1,191 @@
+daily.csv: 1095 天, 2023-11-24 ~ 2026-11-22
+缺失率：
+ close               0.000
+open                0.000
+high                0.000
+low                 0.000
+n_hours             0.000
+rv_intraday         0.000
+turnover            0.000
+tx_count            0.000
+players_avg         0.196
+players_peak        0.196
+sc_players          0.000
+sc_players_chg1m    0.000
+sc_players_chg3m    0.000
+cmp_delta           0.369
+cmp_delta_chg1m     0.397
+cmp_delta_chg3m     0.451
+cmp_marvel          0.369
+cmp_marvel_chg1m    0.397
+cmp_marvel_chg3m    0.451
+cmp_pubg            0.000
+cmp_pubg_chg1m      0.000
+cmp_pubg_chg3m      0.000
+cmp_apex            0.000
+cmp_apex_chg1m      0.000
+cmp_apex_chg3m      0.000
+cmp_r6              0.000
+cmp_r6_chg1m        0.000
+cmp_r6_chg3m        0.000
+cmp_ow2             0.000
+cmp_ow2_chg1m       0.000
+cmp_ow2_chg3m       0.006
+cmp_dota2           0.000
+cmp_dota2_chg1m     0.000
+cmp_dota2_chg3m     0.000
+usdcny              0.000
+btc                 0.000
+gold                0.000
+upd_high            0.809
+upd_mid             0.809
+                      值
+起始日          2023-11-24
+结束日          2026-11-22
+天数                 1095
+起始值              859.63
+结束值              607.35
+最高值             1747.45
+最高日          2025-05-06
+最低值              607.35
+最低日          2026-11-22
+日收益均值%        -0.031755
+日收益标准差%        2.617859
+年化波动率%        50.014125
+偏度           -10.633012
+峰度           268.549335
+|日收益|>5% 天数          17
+                         Pearson  Spearman
+成交额7日变化                    0.096     0.155
+成交笔数7日变化                   0.067     0.116
+在线人数7日变化(SteamDT)          0.081     0.105
+CS2 上月峰值环比(SteamCharts)   -0.017     0.021
+三角洲上月峰值环比                 -0.047     0.160
+漫威争锋上月峰值环比                -0.012    -0.019
+PUBG 上月峰值环比                0.091     0.053
+Apex 上月峰值环比                0.002    -0.047
+CS2 份额                     0.061     0.166
+汇率7日变化                     0.004     0.009
+比特币7日变化                    0.083     0.030
+比特币30日变化                  -0.006    -0.059
+黄金7日变化                    -0.101     0.111
+黄金30日变化                   -0.038     0.217
+过去7天收益                    -0.287     0.161
+过去30天收益                   -0.205     0.199
+30日波动率                     0.215    -0.002
+              后7天涨跌%  后14天涨跌%
+类型                           
+case_release    0.59     2.04
+major           3.12     2.35
+shock         -58.80   -35.79
+steam_sale     -0.95    -1.71
+样本 1035 天：训练 2024-01-23~2026-01-15，验证 2026-01-16~2026-06-19，测试 2026-06-20~2026-11-22
+  h= 1 Naive(持平)        val MAE(ret)=0.00990 params={}
+  h= 1 HistMean         val MAE(ret)=0.01011 params={}
+  h= 1 MA7              val MAE(ret)=0.02078 params={}
+  h= 1 LinearRegression val MAE(ret)=0.01492 params={}
+  h= 1 Ridge            val MAE(ret)=0.01003 params={'alpha': 3000}
+  h= 1 Lasso            val MAE(ret)=0.01005 params={'alpha': 0.001}
+  h= 1 ElasticNet       val MAE(ret)=0.01000 params={'alpha': 0.001, 'l1_ratio': 0.8}
+  h= 1 KNN              val MAE(ret)=0.00975 params={'pca': 5, 'k': 100, 'w': 'uniform'}
+  h= 1 SVR              val MAE(ret)=0.00975 params={'C': 1, 'eps': 0.1, 'gamma': 'scale'}
+  h= 1 DecisionTree     val MAE(ret)=0.00946 params={'max_depth': 2, 'min_samples_leaf': 20}
+  h= 1 RandomForest     val MAE(ret)=0.00928 params={'max_depth': None, 'min_samples_leaf': 20, 'max_features': 0.3}
+  h= 1 XGBoost          val MAE(ret)=0.00963 params={'max_depth': 2, 'n_estimators': 200, 'min_child_weight': 20}
+  h= 1 LightGBM         val MAE(ret)=0.00923 params={'n_estimators': 150, 'learning_rate': 0.0492956361739396, 'num_leaves': 21, 'max_depth': 6, 'min_child_samples': 80, 'subsample': 0.5073419046462739, 'colsample_bytree': 0.39326701365678507, 'reg_lambda': 0.0017573205262349872, 'subsample_freq': 1}
+  h= 1 CatBoost         val MAE(ret)=0.00956 params={'depth': 6, 'iterations': 300, 'l2_leaf_reg': 10}
+  h=1 验证集最优（按 MAPE）: WeightedAvg(top3)；80% 区间覆盖率 raw=0.871 cqr=0.884
+  h= 7 Naive(持平)        val MAE(ret)=0.03403 params={}
+  h= 7 HistMean         val MAE(ret)=0.03595 params={}
+  h= 7 MA7              val MAE(ret)=0.04078 params={}
+  h= 7 LinearRegression val MAE(ret)=0.06559 params={}
+  h= 7 Ridge            val MAE(ret)=0.03959 params={'alpha': 3000}
+  h= 7 Lasso            val MAE(ret)=0.03806 params={'alpha': 0.01}
+  h= 7 ElasticNet       val MAE(ret)=0.03934 params={'alpha': 0.01, 'l1_ratio': 0.8}
+  h= 7 KNN              val MAE(ret)=0.03165 params={'pca': 10, 'k': 100, 'w': 'uniform'}
+  h= 7 SVR              val MAE(ret)=0.03397 params={'C': 0.1, 'eps': 0.1, 'gamma': 0.003}
+  h= 7 DecisionTree     val MAE(ret)=0.03701 params={'max_depth': 3, 'min_samples_leaf': 50}
+  h= 7 RandomForest     val MAE(ret)=0.03628 params={'max_depth': None, 'min_samples_leaf': 5, 'max_features': 0.3}
+  h= 7 XGBoost          val MAE(ret)=0.03747 params={'max_depth': 2, 'n_estimators': 200, 'min_child_weight': 5}
+  h= 7 LightGBM         val MAE(ret)=0.03515 params={'n_estimators': 150, 'learning_rate': 0.01320547269917319, 'num_leaves': 27, 'max_depth': 6, 'min_child_samples': 60, 'subsample': 0.7148510559860182, 'colsample_bytree': 0.779645960404754, 'reg_lambda': 24.12215576818324, 'subsample_freq': 1}
+  h= 7 CatBoost         val MAE(ret)=0.03579 params={'depth': 4, 'iterations': 300, 'l2_leaf_reg': 3}
+  h=7 验证集最优（按 MAPE）: KNN；80% 区间覆盖率 raw=0.745 cqr=0.926
+  h=30 Naive(持平)        val MAE(ret)=0.07397 params={}
+  h=30 HistMean         val MAE(ret)=0.07778 params={}
+  h=30 MA7              val MAE(ret)=0.07746 params={}
+  h=30 LinearRegression val MAE(ret)=0.18907 params={}
+  h=30 Ridge            val MAE(ret)=0.06190 params={'alpha': 1000}
+  h=30 Lasso            val MAE(ret)=0.06688 params={'alpha': 0.01}
+  h=30 ElasticNet       val MAE(ret)=0.07687 params={'alpha': 0.01, 'l1_ratio': 0.8}
+  h=30 KNN              val MAE(ret)=0.05844 params={'pca': 10, 'k': 100, 'w': 'distance'}
+  h=30 SVR              val MAE(ret)=0.07513 params={'C': 0.1, 'eps': 0.5, 'gamma': 0.003}
+  h=30 DecisionTree     val MAE(ret)=0.11719 params={'max_depth': 2, 'min_samples_leaf': 20}
+  h=30 RandomForest     val MAE(ret)=0.07999 params={'max_depth': 3, 'min_samples_leaf': 5, 'max_features': 'sqrt'}
+  h=30 XGBoost          val MAE(ret)=0.10334 params={'max_depth': 2, 'n_estimators': 200, 'min_child_weight': 5}
+  h=30 LightGBM         val MAE(ret)=0.09009 params={'n_estimators': 100, 'learning_rate': 0.011220820554251516, 'num_leaves': 14, 'max_depth': 2, 'min_child_samples': 14, 'subsample': 0.532973128481952, 'colsample_bytree': 0.8737467661164676, 'reg_lambda': 0.0016367688608910935, 'subsample_freq': 1}
+  h=30 CatBoost         val MAE(ret)=0.08287 params={'depth': 3, 'iterations': 600, 'l2_leaf_reg': 3}
+  h=30 验证集最优（按 MAPE）: KNN；80% 区间覆盖率 raw=0.627 cqr=0.913
+  h= 1 Majority      val MacroF1=0.180
+  h= 1 Momentum      val MacroF1=0.427
+  h= 1 Logistic      val MacroF1=0.317
+  h= 1 KNN           val MacroF1=0.322
+  h= 1 SVC           val MacroF1=0.360
+  h= 1 DecisionTree  val MacroF1=0.399
+  h= 1 RandomForest  val MacroF1=0.423
+  h= 1 XGBoost       val MacroF1=0.482
+  h= 1 LightGBM      val MacroF1=0.491
+  h= 1 CatBoost      val MacroF1=0.438
+  h=1 阈值 θ=0.0015，验证集最优: LightGBM，测试集类别分布 {0: 0.645, 1: 0.155, 2: 0.2}
+  h= 7 Majority      val MacroF1=0.128
+  h= 7 Momentum      val MacroF1=0.282
+  h= 7 Logistic      val MacroF1=0.309
+  h= 7 KNN           val MacroF1=0.284
+  h= 7 SVC           val MacroF1=0.297
+  h= 7 DecisionTree  val MacroF1=0.391
+  h= 7 RandomForest  val MacroF1=0.406
+  h= 7 XGBoost       val MacroF1=0.353
+  h= 7 LightGBM      val MacroF1=0.372
+  h= 7 CatBoost      val MacroF1=0.387
+  h=7 阈值 θ=0.0080，验证集最优: RandomForest，测试集类别分布 {0: 0.738, 1: 0.168, 2: 0.094}
+  h=30 Majority      val MacroF1=0.111
+  h=30 Momentum      val MacroF1=0.258
+  h=30 Logistic      val MacroF1=0.264
+  h=30 KNN           val MacroF1=0.460
+  h=30 SVC           val MacroF1=0.408
+  h=30 DecisionTree  val MacroF1=0.230
+  h=30 RandomForest  val MacroF1=0.341
+  h=30 XGBoost       val MacroF1=0.323
+  h=30 LightGBM      val MacroF1=0.377
+  h=30 CatBoost      val MacroF1=0.314
+  h=30 阈值 θ=0.0215，验证集最优: KNN，测试集类别分布 {0: 0.921, 1: 0.079, 2: nan}
+[1/5] 事件冲击分析
+模型                     LightGBM(不截尾标签)  LightGBM(全部特征)  LightGBM(无事件特征)  Naive(持平)
+窗口                                                                                
+更新前 (07-01~10-14)                 2.43            2.35             2.40       2.49
+冲击窗口 (10-15~10-28)               58.82           58.35            58.31      56.99
+冲击后 1 月 (10-29~11-28)             4.85            4.71             4.82       4.87
+冲击后 2 月 (11-29~01-15)             3.10            2.96             3.12       2.17
+[2/5] SHAP
+  SHAP h=7 top5: ['cmp_marvel_chg1m', 'new_rival_ratio', 'days_since_major_end', 'days_since_case', 'cs2_share_chg3m']
+  SHAP h=30 top5: ['days_since_tradeup', 'cmp_dota2_chg1m', 'mom_60', 'days_since_case', 'new_rival_ratio']
+[3/5] 模拟回测
+   单边费率             策略  换仓次数  累计收益%  最大回撤%   年化夏普
+5  0.01           买入持有   1.0 -34.49 -36.82  -7.40
+6  0.01     模型信号:Ridge   8.0  -9.22  -9.22  -4.00
+7  0.01       模型信号:KNN   0.0   0.00   0.00    NaN
+8  0.01  模型信号:LightGBM  15.0 -29.17 -31.31  -6.61
+9  0.01     随机(500次均值)   NaN -58.92 -59.10 -15.86
+[4/5] 扩展区间评估
+  扩展评估 h=1 完成
+  扩展评估 h=7 完成
+  扩展评估 h=30 完成
+[5/5] 消融实验
+  消融 h=7 KNN 完成
+  消融 h=7 LightGBM 完成
+  消融 h=7 Ridge 完成
+  消融 h=30 KNN 完成
+  消融 h=30 LightGBM 完成
+  消融 h=30 Ridge 完成
+图表已保存到 /Users/liutongsheng/Downloads/my_project/machine_learn_homework/outputs/figures
+完成。演示系统：bash run_app.sh
+exit=0

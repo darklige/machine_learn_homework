@@ -1,0 +1,46 @@
+样本 1035 天：训练 2024-01-23~2026-01-15，验证 2026-01-16~2026-06-19，测试 2026-06-20~2026-11-22
+  h= 1 Naive(持平)        val MAE(ret)=0.00990 params={}
+  h= 1 HistMean         val MAE(ret)=0.01011 params={}
+  h= 1 MA7              val MAE(ret)=0.02078 params={}
+  h= 1 LinearRegression val MAE(ret)=0.01334 params={}
+  h= 1 Ridge            val MAE(ret)=0.00989 params={'alpha': 1000}
+  h= 1 Lasso            val MAE(ret)=0.00978 params={'alpha': 0.0001}
+  h= 1 ElasticNet       val MAE(ret)=0.00979 params={'alpha': 0.0003, 'l1_ratio': 0.5}
+  h= 1 KNN              val MAE(ret)=0.00972 params={'pca': 5, 'k': 100, 'w': 'uniform'}
+  h= 1 SVR              val MAE(ret)=0.00964 params={'C': 0.3, 'eps': 0.1, 'gamma': 'scale'}
+  h= 1 DecisionTree     val MAE(ret)=0.00938 params={'max_depth': 2, 'min_samples_leaf': 20}
+  h= 1 RandomForest     val MAE(ret)=0.00926 params={'max_depth': None, 'min_samples_leaf': 20, 'max_features': 0.3}
+  h= 1 XGBoost          val MAE(ret)=0.00950 params={'max_depth': 4, 'n_estimators': 200, 'min_child_weight': 5}
+  h= 1 LightGBM         val MAE(ret)=0.00920 params={'n_estimators': 150, 'learning_rate': 0.0492956361739396, 'num_leaves': 21, 'max_depth': 6, 'min_child_samples': 80, 'subsample': 0.5073419046462739, 'colsample_bytree': 0.39326701365678507, 'reg_lambda': 0.0017573205262349872, 'subsample_freq': 1}
+  h= 1 CatBoost         val MAE(ret)=0.00953 params={'depth': 4, 'iterations': 300, 'l2_leaf_reg': 3}
+  h=1 验证集最优（按 MAPE）: WeightedAvg(top3)；80% 区间覆盖率 raw=0.826 cqr=0.845
+  h= 7 Naive(持平)        val MAE(ret)=0.03403 params={}
+  h= 7 HistMean         val MAE(ret)=0.03595 params={}
+  h= 7 MA7              val MAE(ret)=0.04078 params={}
+  h= 7 LinearRegression val MAE(ret)=0.07041 params={}
+  h= 7 Ridge            val MAE(ret)=0.03628 params={'alpha': 3000}
+  h= 7 Lasso            val MAE(ret)=0.03784 params={'alpha': 0.01}
+  h= 7 ElasticNet       val MAE(ret)=0.03657 params={'alpha': 0.003, 'l1_ratio': 0.2}
+  h= 7 KNN              val MAE(ret)=0.03248 params={'pca': 5, 'k': 100, 'w': 'uniform'}
+  h= 7 SVR              val MAE(ret)=0.03000 params={'C': 0.3, 'eps': 0.1, 'gamma': 0.003}
+  h= 7 DecisionTree     val MAE(ret)=0.03214 params={'max_depth': 3, 'min_samples_leaf': 20}
+  h= 7 RandomForest     val MAE(ret)=0.03498 params={'max_depth': 5, 'min_samples_leaf': 5, 'max_features': 0.3}
+  h= 7 XGBoost          val MAE(ret)=0.03741 params={'max_depth': 4, 'n_estimators': 200, 'min_child_weight': 5}
+  h= 7 LightGBM         val MAE(ret)=0.03485 params={'n_estimators': 300, 'learning_rate': 0.011222047716744035, 'num_leaves': 13, 'max_depth': 4, 'min_child_samples': 52, 'subsample': 0.5255917928402082, 'colsample_bytree': 0.8385284160467894, 'reg_lambda': 0.5762887465505192, 'subsample_freq': 1}
+  h= 7 CatBoost         val MAE(ret)=0.03540 params={'depth': 6, 'iterations': 300, 'l2_leaf_reg': 3}
+  h=7 验证集最优（按 MAPE）: Stacking(Ridge)；80% 区间覆盖率 raw=0.805 cqr=0.940
+  h=30 Naive(持平)        val MAE(ret)=0.07397 params={}
+  h=30 HistMean         val MAE(ret)=0.07778 params={}
+  h=30 MA7              val MAE(ret)=0.07746 params={}
+  h=30 LinearRegression val MAE(ret)=0.21210 params={}
+  h=30 Ridge            val MAE(ret)=0.05708 params={'alpha': 1000}
+  h=30 Lasso            val MAE(ret)=0.05794 params={'alpha': 0.003}
+  h=30 ElasticNet       val MAE(ret)=0.05502 params={'alpha': 0.01, 'l1_ratio': 0.2}
+  h=30 KNN              val MAE(ret)=0.05888 params={'pca': 5, 'k': 50, 'w': 'uniform'}
+  h=30 SVR              val MAE(ret)=0.05546 params={'C': 1, 'eps': 0.1, 'gamma': 0.003}
+  h=30 DecisionTree     val MAE(ret)=0.07052 params={'max_depth': 3, 'min_samples_leaf': 50}
+  h=30 RandomForest     val MAE(ret)=0.07312 params={'max_depth': 5, 'min_samples_leaf': 5, 'max_features': 'sqrt'}
+  h=30 XGBoost          val MAE(ret)=0.09100 params={'max_depth': 4, 'n_estimators': 200, 'min_child_weight': 5}
+  h=30 LightGBM         val MAE(ret)=0.08319 params={'n_estimators': 100, 'learning_rate': 0.018889853661562487, 'num_leaves': 8, 'max_depth': 2, 'min_child_samples': 35, 'subsample': 0.7797656969351373, 'colsample_bytree': 0.9162085113019812, 'reg_lambda': 0.08503693883913892, 'subsample_freq': 1}
+  h=30 CatBoost         val MAE(ret)=0.07355 params={'depth': 3, 'iterations': 300, 'l2_leaf_reg': 10}
+  h=30 验证集最优（按 MAPE）: Stacking(Ridge)；80% 区间覆盖率 raw=0.762 cqr=0.992

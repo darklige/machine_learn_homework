@@ -1,0 +1,213 @@
+{
+ "best_by_val": {
+  "1": "WeightedAvg(top3)",
+  "7": "SVR",
+  "30": "WeightedAvg(top3)"
+ },
+ "params": {
+  "1": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 1000
+   },
+   "Lasso": {
+    "alpha": 0.0001
+   },
+   "ElasticNet": {
+    "alpha": 0.0003,
+    "l1_ratio": 0.5
+   },
+   "KNN": {
+    "pca": 5,
+    "k": 100,
+    "w": "uniform"
+   },
+   "SVR": {
+    "C": 1,
+    "eps": 0.1,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 3,
+    "min_samples_leaf": 20
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 20,
+    "max_features": 0.3
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 400,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 150,
+    "learning_rate": 0.05162477187481337,
+    "num_leaves": 27,
+    "max_depth": 5,
+    "min_child_samples": 62,
+    "subsample": 0.5123861514552402,
+    "colsample_bytree": 0.555130676106147,
+    "reg_lambda": 0.030981461284855464,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 6,
+    "iterations": 300,
+    "l2_leaf_reg": 10
+   },
+   "WeightedAvg(top3)": {
+    "LightGBM": 0.33,
+    "RandomForest": 0.333,
+    "DecisionTree": 0.337
+   },
+   "Stacking(Ridge)": {
+    "LightGBM": 0.003,
+    "RandomForest": 0.002,
+    "DecisionTree": 0.003,
+    "XGBoost": 0.003,
+    "CatBoost": 0.001
+   }
+  },
+  "7": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 3000
+   },
+   "Lasso": {
+    "alpha": 0.001
+   },
+   "ElasticNet": {
+    "alpha": 0.001,
+    "l1_ratio": 0.8
+   },
+   "KNN": {
+    "pca": 20,
+    "k": 100,
+    "w": "distance"
+   },
+   "SVR": {
+    "C": 0.3,
+    "eps": 0.1,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 3,
+    "min_samples_leaf": 50
+   },
+   "RandomForest": {
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt"
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 200,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 250,
+    "learning_rate": 0.03394644002144446,
+    "num_leaves": 27,
+    "max_depth": 5,
+    "min_child_samples": 57,
+    "subsample": 0.5006488785475547,
+    "colsample_bytree": 0.45861148051804157,
+    "reg_lambda": 0.0023736213073606255,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 4,
+    "iterations": 300,
+    "l2_leaf_reg": 10
+   },
+   "WeightedAvg(top3)": {
+    "SVR": 0.376,
+    "KNN": 0.315,
+    "RandomForest": 0.309
+   },
+   "Stacking(Ridge)": {
+    "SVR": 1.984,
+    "KNN": 0.0,
+    "RandomForest": 0.0,
+    "ElasticNet": 0.0,
+    "Lasso": 0.0
+   }
+  },
+  "30": {
+   "Naive(持平)": {},
+   "HistMean": {},
+   "MA7": {},
+   "LinearRegression": {},
+   "Ridge": {
+    "alpha": 100
+   },
+   "Lasso": {
+    "alpha": 0.003
+   },
+   "ElasticNet": {
+    "alpha": 0.01,
+    "l1_ratio": 0.2
+   },
+   "KNN": {
+    "pca": 20,
+    "k": 50,
+    "w": "uniform"
+   },
+   "SVR": {
+    "C": 1,
+    "eps": 0.5,
+    "gamma": 0.003
+   },
+   "DecisionTree": {
+    "max_depth": 2,
+    "min_samples_leaf": 20
+   },
+   "RandomForest": {
+    "max_depth": 3,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt"
+   },
+   "XGBoost": {
+    "max_depth": 2,
+    "n_estimators": 400,
+    "min_child_weight": 5
+   },
+   "LightGBM": {
+    "n_estimators": 250,
+    "learning_rate": 0.09675584245571853,
+    "num_leaves": 7,
+    "max_depth": 6,
+    "min_child_samples": 11,
+    "subsample": 0.7997198952459147,
+    "colsample_bytree": 0.9535310925154996,
+    "reg_lambda": 0.3763300199993075,
+    "subsample_freq": 1
+   },
+   "CatBoost": {
+    "depth": 3,
+    "iterations": 300,
+    "l2_leaf_reg": 3
+   },
+   "WeightedAvg(top3)": {
+    "ElasticNet": 0.371,
+    "Ridge": 0.341,
+    "SVR": 0.289
+   },
+   "Stacking(Ridge)": {
+    "ElasticNet": 0.746,
+    "Ridge": 0.0,
+    "SVR": 0.104,
+    "Lasso": 0.0,
+    "KNN": 0.0
+   }
+  }
+ }
+}
