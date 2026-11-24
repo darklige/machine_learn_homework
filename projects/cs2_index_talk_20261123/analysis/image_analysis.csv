@@ -1,0 +1,19 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,butterfly_2022_sold.jpeg,1206,2622,0.46,0.46,,native,JPEG,False,1,,bitmap,True,True,307.2,Portrait
+2,butterfly_now.jpeg,1206,2622,0.46,0.46,,native,JPEG,False,1,,bitmap,True,True,746.1,Portrait
+3,fig_ablation.png,2100,750,2.80,2.80,,native,PNG,False,1,,bitmap,True,True,100.1,Ultra-wide
+4,fig_backtest_nav.png,1800,675,2.67,2.67,,native,PNG,False,1,,bitmap,True,True,95.2,Ultra-wide
+5,fig_cls_test_metrics.png,1950,675,2.89,2.89,,native,PNG,False,1,,bitmap,True,True,79.6,Ultra-wide
+6,fig_eda_aux.png,1950,1500,1.30,1.30,,native,PNG,False,1,,bitmap,True,True,401.7,Standard landscape
+7,fig_eda_index_events.png,1950,1050,1.86,1.86,,native,PNG,False,1,,bitmap,True,True,132.0,Wide landscape
+8,fig_leaderboard_mape.png,1500,900,1.67,1.67,,native,PNG,False,1,,bitmap,True,True,75.0,Wide landscape
+9,fig_pred_test_all_h.png,1950,1500,1.30,1.30,,native,PNG,False,1,,bitmap,True,True,359.6,Standard landscape
+10,fig_shap_beeswarm_h7.png,1350,900,1.50,1.50,,native,PNG,False,1,,bitmap,True,True,141.9,Standard landscape
+11,fig_shock_tradeup.png,1950,1050,1.86,1.86,,native,PNG,False,1,,bitmap,True,True,204.5,Wide landscape
+12,gloves_2022_sold.jpeg,1206,2622,0.46,0.46,,native,JPEG,False,1,,bitmap,True,True,310.6,Portrait
+13,gloves_now.jpeg,1206,2622,0.46,0.46,,native,JPEG,False,1,,bitmap,True,True,743.0,Portrait
+14,m9_2022_sold.jpeg,1206,2622,0.46,0.46,,native,JPEG,False,1,,bitmap,True,True,321.5,Portrait
+15,m9_now.jpeg,1206,2622,0.46,0.46,,native,JPEG,False,1,,bitmap,True,True,720.1,Portrait
+16,meme_huanledou_drop.png,1206,2622,0.46,0.46,,native,PNG,False,1,,bitmap,True,True,589.8,Portrait
+17,meme_kurumi.png,850,478,1.78,1.78,,native,PNG,False,1,,bitmap,True,True,375.8,Wide landscape
+18,meme_this_is_fine.jpg,1024,1024,1.00,1.00,,native,JPEG,False,1,,bitmap,True,True,201.8,Near square

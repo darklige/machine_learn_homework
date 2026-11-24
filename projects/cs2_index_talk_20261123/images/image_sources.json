@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "filename": "meme_this_is_fine.jpg",
+      "slide": "12_shock",
+      "purpose": "sticker",
+      "search_query": "this is fine dog fire",
+      "matched_query": "this is fine meme",
+      "orientation": "any",
+      "provider": "wikimedia",
+      "stage": "all",
+      "title": "This Is Fine (meme).png",
+      "author": "https://www.weights.com/create prompted and edited by me",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:This_Is_Fine_(meme).png",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/This_Is_Fine_%28meme%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "Public Domain",
+      "license_url": "",
+      "license_tier": "no-attribution",
+      "attribution_required": false,
+      "width": 1024,
+      "height": 1024,
+      "attribution_text": "meme_this_is_fine.jpg — \"This Is Fine (meme).png\" by https://www.weights.com/create prompted and edited by me via Wikimedia Commons — license: Public Domain",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "query_variants": [
+        "this is fine meme"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-23T10:16:44.073296Z",
+  "license_verification": "provider metadata used; manual review recommended for external delivery"
+}

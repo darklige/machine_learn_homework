@@ -1,0 +1,288 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/exports/cs2_index_talk_20261124_110038.pptx",
+    "bytes": 3205208
+  },
+  "source": {
+    "svg_slide_count": 17,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "6a8bda8b3ee44601bc8adcf36af6ffe906af9ca93465afc6751a06896ababe00",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "044e02430531a64ab0e54b8feef2fd3c04de380f9a3bd32591bc991a5b222e22"
+        },
+        {
+          "file": "02_index.svg",
+          "sha256": "6f1c35992da33431f8588766dc0684537bdf3d330a7773b7acc6c4f59ffbe96a"
+        },
+        {
+          "file": "03_task_data.svg",
+          "sha256": "6175c191aa130cc88d5e524ed316a9e42357db72cfec20125e30e5b4a7703e0d"
+        },
+        {
+          "file": "04_features.svg",
+          "sha256": "6581956683c8027589db30759520b46e542b95bb896de98beec401b0d37170d1"
+        },
+        {
+          "file": "05_models.svg",
+          "sha256": "b3a21ca7753b65cc19d423fbd421ae5cfb68c0df5f847bad81b8092ae718665b"
+        },
+        {
+          "file": "06_leaderboard.svg",
+          "sha256": "619d0cebd0ea74b1cf6a8a0d761284d4aa84a0446592c07baad8af04b38d1a35"
+        },
+        {
+          "file": "07_reality_check.svg",
+          "sha256": "752ebce0d312ffb200397163934daa492f756dbc481847c652b187a27172ff27"
+        },
+        {
+          "file": "08_horizon.svg",
+          "sha256": "b990be3c44462fb461f7855703b11cc23787ead67fd788c9f489816e7d74450e"
+        },
+        {
+          "file": "09_classification.svg",
+          "sha256": "fd1e405868a45e61e339a64f44c59b13cb7f8cc0ae27c5e5c1749b7a383afa0a"
+        },
+        {
+          "file": "10_shap.svg",
+          "sha256": "b3fa93e5a76af6fafa1b4244b96c14d86d6512fc56b445b20333761d5413f8b9"
+        },
+        {
+          "file": "11_btc_gold.svg",
+          "sha256": "fe948d699745f0c1e0739ac3da7cb2f69d7a3f86deb7c0998fa610a42f7e3000"
+        },
+        {
+          "file": "12_valve_shock.svg",
+          "sha256": "618656cd32b2a581130614bf12be8dd13a5875afb4e5d5d7208a80b707eb2c57"
+        },
+        {
+          "file": "13_backtest.svg",
+          "sha256": "face71cf9337ab753a5e007882ac4f68d7ef5efcd939b5d78acfe318d7799b08"
+        },
+        {
+          "file": "14_acceptance.svg",
+          "sha256": "3a67ad9d4ff84609baddf67fc13303a312cc0ceaf74c88156116e6517552854f"
+        },
+        {
+          "file": "15_my_bill.svg",
+          "sha256": "e96a9cdf273dcb9204fa3a1666fd90f839636aae46c336c7eeea302af6f0a97f"
+        },
+        {
+          "file": "16_huanledou.svg",
+          "sha256": "b1d05cdb80ca68acf6e2898b6cddabcac41cb62fcad3b12fee58177c1b931edc"
+        },
+        {
+          "file": "17_ending.svg",
+          "sha256": "2041f42dade36aecbfb6f45541441fbd432e887d807aa083132667d5190a78b9"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 17,
+    "notes": 17,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/validation/svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "6a8bda8b3ee44601bc8adcf36af6ffe906af9ca93465afc6751a06896ababe00",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "044e02430531a64ab0e54b8feef2fd3c04de380f9a3bd32591bc991a5b222e22"
+        },
+        {
+          "file": "02_index.svg",
+          "sha256": "6f1c35992da33431f8588766dc0684537bdf3d330a7773b7acc6c4f59ffbe96a"
+        },
+        {
+          "file": "03_task_data.svg",
+          "sha256": "6175c191aa130cc88d5e524ed316a9e42357db72cfec20125e30e5b4a7703e0d"
+        },
+        {
+          "file": "04_features.svg",
+          "sha256": "6581956683c8027589db30759520b46e542b95bb896de98beec401b0d37170d1"
+        },
+        {
+          "file": "05_models.svg",
+          "sha256": "b3a21ca7753b65cc19d423fbd421ae5cfb68c0df5f847bad81b8092ae718665b"
+        },
+        {
+          "file": "06_leaderboard.svg",
+          "sha256": "619d0cebd0ea74b1cf6a8a0d761284d4aa84a0446592c07baad8af04b38d1a35"
+        },
+        {
+          "file": "07_reality_check.svg",
+          "sha256": "752ebce0d312ffb200397163934daa492f756dbc481847c652b187a27172ff27"
+        },
+        {
+          "file": "08_horizon.svg",
+          "sha256": "b990be3c44462fb461f7855703b11cc23787ead67fd788c9f489816e7d74450e"
+        },
+        {
+          "file": "09_classification.svg",
+          "sha256": "fd1e405868a45e61e339a64f44c59b13cb7f8cc0ae27c5e5c1749b7a383afa0a"
+        },
+        {
+          "file": "10_shap.svg",
+          "sha256": "b3fa93e5a76af6fafa1b4244b96c14d86d6512fc56b445b20333761d5413f8b9"
+        },
+        {
+          "file": "11_btc_gold.svg",
+          "sha256": "fe948d699745f0c1e0739ac3da7cb2f69d7a3f86deb7c0998fa610a42f7e3000"
+        },
+        {
+          "file": "12_valve_shock.svg",
+          "sha256": "618656cd32b2a581130614bf12be8dd13a5875afb4e5d5d7208a80b707eb2c57"
+        },
+        {
+          "file": "13_backtest.svg",
+          "sha256": "face71cf9337ab753a5e007882ac4f68d7ef5efcd939b5d78acfe318d7799b08"
+        },
+        {
+          "file": "14_acceptance.svg",
+          "sha256": "3a67ad9d4ff84609baddf67fc13303a312cc0ceaf74c88156116e6517552854f"
+        },
+        {
+          "file": "15_my_bill.svg",
+          "sha256": "e96a9cdf273dcb9204fa3a1666fd90f839636aae46c336c7eeea302af6f0a97f"
+        },
+        {
+          "file": "16_huanledou.svg",
+          "sha256": "b1d05cdb80ca68acf6e2898b6cddabcac41cb62fcad3b12fee58177c1b931edc"
+        },
+        {
+          "file": "17_ending.svg",
+          "sha256": "2041f42dade36aecbfb6f45541441fbd432e887d807aa083132667d5190a78b9"
+        }
+      ]
+    },
+    "summary": {
+      "total": 17,
+      "passed": 13,
+      "warnings": 4,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 4,
+        "issues": [
+          {
+            "file": "01_cover.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[26]:text-anchor None -> 'end'; text[27]:text-anchor 'end' -> None; text[28]:text-anchor 'end' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "10_shap.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): group-importance:font-size None -> '20'; text[23]:font-size '20' -> None; g[24]:font-size '20' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "16_huanledou.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): reply:fill None -> '#E6EDF3'; reply:font-size None -> '28'; text[35]:fill '#E6EDF3' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "17_ending.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): hero-slogan:font-size None -> '120'; hero-slogan:font-weight None -> 'bold'; text[36]:font-size '120' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Consolas, Microsoft YaHei, monospace",
+        "Microsoft YaHei, Arial, sans-serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 14,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/backup/20261124_110038/svg_output",
+  "conversion_trace_path": null
+}

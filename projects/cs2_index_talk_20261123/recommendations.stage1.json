@@ -1,0 +1,20 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-CN",
+  "recommend": { "canvas": "ppt169" },
+  "audience": { "value": "机器学习课程的老师和同学：懂回归/分类/集成学习等基本概念，多数人玩过或听说过 CS2，但不了解饰品市场和 SteamDT 大盘指数" },
+  "communication_intent": { "value": "先汇报大作业：数据、特征、模型、评估、SHAP 解释与消融等完整流程和真实结果（包括未达标项）；再借结果讲清一个现实结论：这个市场主要被 V 社更新左右，模型只能吃到小而稳的优势，劝大家别把饰品当理财" },
+  "audience_outcome": { "value": "听众能说出：1 天预测稳定优于持平基线、7/30 天的大幅优势来自单边下跌行情；比特币、黄金等外部资产几乎无关，V 社规则更新才是决定性因素；并带着“不赌为赢”的结论笑着离场" },
+  "core_message": { "value": "模型有一定精度（1 天预测显著胜过基线），但 CS2 饰品价格由 V 社说了算、极易被操盘——不要相信暴富，不赌为赢" },
+  "delivery_context": { "value": "主讲人现场演讲的课程大作业答辩，约 10–15 分钟，风格幽默风趣，可用梗图；会后可能作为作业材料提交" },
+  "artifact_afterlife": { "value": "作为课程大作业的展示材料提交存档，演讲者会照着 PPT 和备注演讲" },
+  "content_divergence": { "value": "" },
+  "template_options": {
+    "schema_version": 1,
+    "phase": "template",
+    "lang": "zh",
+    "default_mode": "free_design",
+    "explicit_workspace_roots": []
+  }
+}

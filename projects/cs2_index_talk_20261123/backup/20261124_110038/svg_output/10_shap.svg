@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 10 · 对局：结果与反转</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">10 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">模型在看什么？别全信</text>
+  </g>
+  <g id="shap-panel" data-pptx-bounds="56 136 600 456">
+    <rect x="56" y="136" width="600" height="456" rx="4" fill="#F4F6F8"/>
+    <rect x="56" y="136" width="600" height="30" rx="4" fill="#1C232D"/>
+    <text x="70" y="157" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">fig · SHAP 蜂群图（LightGBM，h=7，测试段）</text>
+    <image href="../images/fig_shap_beeswarm_h7.png" x="68" y="174" width="576" height="408" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="group-importance" data-pptx-bounds="688 136 536 196">
+    <text x="688" y="160" font-size="20" fill="#8B98A9">特征组 mean|SHAP|（h=7）</text>
+    <g font-size="20" fill="#E6EDF3">
+      <text x="688" y="198">competitor</text><rect x="830" y="182" width="300" height="20" fill="#8B98A9"/>
+      <text x="1140" y="198" font-family="Consolas, Microsoft YaHei, monospace">0.0131</text>
+      <text x="688" y="232">price</text><rect x="830" y="216" width="242.6" height="20" fill="#F5A623"/>
+      <text x="1082.6" y="232" font-family="Consolas, Microsoft YaHei, monospace">0.0106</text>
+      <text x="688" y="266">event</text><rect x="830" y="250" width="183.2" height="20" fill="#F5A623"/>
+      <text x="1023.2" y="266" font-family="Consolas, Microsoft YaHei, monospace">0.0080</text>
+      <text x="688" y="300">其余 5 组</text><rect x="830" y="284" width="30" height="20" fill="#2D3742"/>
+      <text x="870" y="300" font-family="Consolas, Microsoft YaHei, monospace">合计 0.0013</text>
+    </g>
+  </g>
+  <g id="trust-card" data-pptx-bounds="688 344 264 248">
+    <rect x="688" y="344" width="264" height="248" rx="4" fill="#1C232D" stroke="#3FB950" stroke-opacity="0.6" stroke-width="1"/>
+    <use data-icon="tabler-filled/circle-check" x="704" y="358" width="26" height="26" fill="#3FB950"/>
+    <text x="738" y="378" font-size="20" font-weight="bold" fill="#3FB950">可信的规律</text>
+    <text x="704" y="418" font-size="20" fill="#E6EDF3">汰换更新后长期下行<tspan x="704" dy="44">波动高 → 后续收益低</tspan><tspan x="704" dy="28">深度回撤后有反弹</tspan><tspan x="704" dy="44">临近特卖偏涨、</tspan><tspan x="704" dy="28">Major 后偏跌（弱证据）</tspan></text>
+  </g>
+  <g id="doubt-card" data-pptx-bounds="960 344 264 248">
+    <rect x="960" y="344" width="264" height="248" rx="4" fill="#1C232D" stroke="#E5484D" stroke-opacity="0.6" stroke-width="1"/>
+    <use data-icon="tabler-filled/alert-triangle" x="976" y="358" width="26" height="26" fill="#E5484D"/>
+    <text x="1010" y="378" font-size="20" font-weight="bold" fill="#E5484D">可疑：竞品特征</text>
+    <text x="976" y="418" font-size="20" fill="#E6EDF3">每月才更新一次，<tspan x="976" dy="28">训练段只有 12 个取值</tspan><tspan x="976" dy="44">没有单调关系，</tspan><tspan x="976" dy="28">“竞品越强越涨”反直觉</tspan><tspan x="976" dy="44">消融 4 处结论相反</tspan></text>
+  </g>
+  <g id="takeaway" data-pptx-bounds="56 604 1168 56">
+    <use data-icon="tabler-filled/bulb" x="56" y="614" width="30" height="30" fill="#F5A623"/>
+    <text x="98" y="638" font-size="20" fill="#E6EDF3">竞品特征排第一，多半是在<tspan fill="#F5A623" font-weight="bold">“记住月份”</tspan>，不能当成“竞品分流导致饰品下跌”的证据</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">其余 5 组：volume 0.0008 · players 0.0004 · fx 0.0001 · calendar 0 · regime 0</text>
+  </g>
+</svg>

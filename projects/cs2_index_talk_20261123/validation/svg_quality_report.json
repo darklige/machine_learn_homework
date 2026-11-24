@@ -1,0 +1,1238 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "6a8bda8b3ee44601bc8adcf36af6ffe906af9ca93465afc6751a06896ababe00",
+    "file_count": 17,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "044e02430531a64ab0e54b8feef2fd3c04de380f9a3bd32591bc991a5b222e22"
+      },
+      {
+        "file": "02_index.svg",
+        "sha256": "6f1c35992da33431f8588766dc0684537bdf3d330a7773b7acc6c4f59ffbe96a"
+      },
+      {
+        "file": "03_task_data.svg",
+        "sha256": "6175c191aa130cc88d5e524ed316a9e42357db72cfec20125e30e5b4a7703e0d"
+      },
+      {
+        "file": "04_features.svg",
+        "sha256": "6581956683c8027589db30759520b46e542b95bb896de98beec401b0d37170d1"
+      },
+      {
+        "file": "05_models.svg",
+        "sha256": "b3a21ca7753b65cc19d423fbd421ae5cfb68c0df5f847bad81b8092ae718665b"
+      },
+      {
+        "file": "06_leaderboard.svg",
+        "sha256": "619d0cebd0ea74b1cf6a8a0d761284d4aa84a0446592c07baad8af04b38d1a35"
+      },
+      {
+        "file": "07_reality_check.svg",
+        "sha256": "752ebce0d312ffb200397163934daa492f756dbc481847c652b187a27172ff27"
+      },
+      {
+        "file": "08_horizon.svg",
+        "sha256": "b990be3c44462fb461f7855703b11cc23787ead67fd788c9f489816e7d74450e"
+      },
+      {
+        "file": "09_classification.svg",
+        "sha256": "fd1e405868a45e61e339a64f44c59b13cb7f8cc0ae27c5e5c1749b7a383afa0a"
+      },
+      {
+        "file": "10_shap.svg",
+        "sha256": "b3fa93e5a76af6fafa1b4244b96c14d86d6512fc56b445b20333761d5413f8b9"
+      },
+      {
+        "file": "11_btc_gold.svg",
+        "sha256": "fe948d699745f0c1e0739ac3da7cb2f69d7a3f86deb7c0998fa610a42f7e3000"
+      },
+      {
+        "file": "12_valve_shock.svg",
+        "sha256": "618656cd32b2a581130614bf12be8dd13a5875afb4e5d5d7208a80b707eb2c57"
+      },
+      {
+        "file": "13_backtest.svg",
+        "sha256": "face71cf9337ab753a5e007882ac4f68d7ef5efcd939b5d78acfe318d7799b08"
+      },
+      {
+        "file": "14_acceptance.svg",
+        "sha256": "3a67ad9d4ff84609baddf67fc13303a312cc0ceaf74c88156116e6517552854f"
+      },
+      {
+        "file": "15_my_bill.svg",
+        "sha256": "e96a9cdf273dcb9204fa3a1666fd90f839636aae46c336c7eeea302af6f0a97f"
+      },
+      {
+        "file": "16_huanledou.svg",
+        "sha256": "b1d05cdb80ca68acf6e2898b6cddabcac41cb62fcad3b12fee58177c1b931edc"
+      },
+      {
+        "file": "17_ending.svg",
+        "sha256": "2041f42dade36aecbfb6f45541441fbd432e887d807aa083132667d5190a78b9"
+      }
+    ]
+  },
+  "summary": {
+    "total": 17,
+    "passed": 13,
+    "warnings": 4,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 4,
+      "issues": [
+        {
+          "file": "01_cover.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[26]:text-anchor None -> 'end'; text[27]:text-anchor 'end' -> None; text[28]:text-anchor 'end' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "10_shap.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): group-importance:font-size None -> '20'; text[23]:font-size '20' -> None; g[24]:font-size '20' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "16_huanledou.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): reply:fill None -> '#E6EDF3'; reply:font-size None -> '28'; text[35]:fill '#E6EDF3' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "17_ending.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): hero-slogan:font-size None -> '120'; hero-slogan:font-weight None -> 'bold'; text[36]:font-size '120' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#FFFFFF": [
+        "15_my_bill.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 17,
+    "totals": {
+      "text_elements": 360,
+      "image_placements": 14,
+      "icons": 21,
+      "svg_geometry_elements": 295,
+      "preset_shapes": 4,
+      "page_frame_elements": 137,
+      "marker_uses": 1,
+      "inline_emphasis_runs": 34,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 7,
+      "icons": 9,
+      "presets": 2,
+      "charts": 3,
+      "tables": 1,
+      "formulas": 0,
+      "inline_emphasis_runs": 16,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 11,
+    "geometry_elements": {
+      "circle": 5,
+      "ellipse": 0,
+      "line": 182,
+      "path": 3,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 105
+    },
+    "preset_names": {
+      "homePlate": 3,
+      "wedgeRoundRectCallout": 1
+    },
+    "native_objects": {
+      "chart": 3,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 1
+    },
+    "image_page_max_frame_share_range": [
+      0.16,
+      0.319
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[26]:text-anchor None -> 'end'; text[27]:text-anchor 'end' -> None; text[28]:text-anchor 'end' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 11,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "044e02430531a64ab0e54b8feef2fd3c04de380f9a3bd32591bc991a5b222e22"
+    },
+    {
+      "file": "02_index.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/02_index.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 16,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "6f1c35992da33431f8588766dc0684537bdf3d330a7773b7acc6c4f59ffbe96a"
+    },
+    {
+      "file": "03_task_data.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/03_task_data.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 5,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 13,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 3,
+            "preset_names": {
+              "homePlate": 3
+            },
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "6175c191aa130cc88d5e524ed316a9e42357db72cfec20125e30e5b4a7703e0d"
+    },
+    {
+      "file": "04_features.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/04_features.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 28,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 11,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 28,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "6581956683c8027589db30759520b46e542b95bb896de98beec401b0d37170d1"
+    },
+    {
+      "file": "05_models.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/05_models.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 35,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 10,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 9,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 35,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "b3a21ca7753b65cc19d423fbd421ae5cfb68c0df5f847bad81b8092ae718665b"
+    },
+    {
+      "file": "06_leaderboard.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/06_leaderboard.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig_leaderboard_mape.png"
+            ],
+            "max_frame_share": 0.319
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "619d0cebd0ea74b1cf6a8a0d761284d4aa84a0446592c07baad8af04b38d1a35"
+    },
+    {
+      "file": "07_reality_check.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/07_reality_check.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 11,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "752ebce0d312ffb200397163934daa492f756dbc481847c652b187a27172ff27"
+    },
+    {
+      "file": "08_horizon.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/08_horizon.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig_pred_test_all_h.png"
+            ],
+            "max_frame_share": 0.3088
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "b990be3c44462fb461f7855703b11cc23787ead67fd788c9f489816e7d74450e"
+    },
+    {
+      "file": "09_classification.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/09_classification.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 6,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "fd1e405868a45e61e339a64f44c59b13cb7f8cc0ae27c5e5c1749b7a383afa0a"
+    },
+    {
+      "file": "10_shap.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/10_shap.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): group-importance:font-size None -> '20'; text[23]:font-size '20' -> None; g[24]:font-size '20' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig_shap_beeswarm_h7.png"
+            ],
+            "max_frame_share": 0.255
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "b3fa93e5a76af6fafa1b4244b96c14d86d6512fc56b445b20333761d5413f8b9"
+    },
+    {
+      "file": "11_btc_gold.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/11_btc_gold.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 10,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "fe948d699745f0c1e0739ac3da7cb2f69d7a3f86deb7c0998fa610a42f7e3000"
+    },
+    {
+      "file": "12_valve_shock.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/12_valve_shock.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 2,
+            "files": [
+              "fig_shock_tradeup.png",
+              "meme_this_is_fine.jpg"
+            ],
+            "max_frame_share": 0.3132
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 5,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 10,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "wedgeRoundRectCallout": 1
+            },
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "618656cd32b2a581130614bf12be8dd13a5875afb4e5d5d7208a80b707eb2c57"
+    },
+    {
+      "file": "13_backtest.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/13_backtest.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 40,
+          "images": {
+            "placements": 1,
+            "files": [
+              "fig_backtest_nav.png"
+            ],
+            "max_frame_share": 0.1929
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 15,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 40,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "face71cf9337ab753a5e007882ac4f68d7ef5efcd939b5d78acfe318d7799b08"
+    },
+    {
+      "file": "14_acceptance.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/14_acceptance.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 6,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 16,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "3a67ad9d4ff84609baddf67fc13303a312cc0ceaf74c88156116e6517552854f"
+    },
+    {
+      "file": "15_my_bill.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/15_my_bill.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 6,
+            "files": [
+              "butterfly_2022_sold.jpeg",
+              "butterfly_now.jpeg",
+              "gloves_2022_sold.jpeg",
+              "gloves_now.jpeg",
+              "m9_2022_sold.jpeg",
+              "m9_now.jpeg"
+            ],
+            "max_frame_share": 0.184
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 6,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 6,
+        "contextual_values": {
+          "colors": [
+            "#FFFFFF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "e96a9cdf273dcb9204fa3a1666fd90f839636aae46c336c7eeea302af6f0a97f"
+    },
+    {
+      "file": "16_huanledou.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/16_huanledou.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): reply:fill None -> '#E6EDF3'; reply:font-size None -> '28'; text[35]:fill '#E6EDF3' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 2,
+            "files": [
+              "meme_huanledou_drop.png",
+              "meme_kurumi.png"
+            ],
+            "max_frame_share": 0.16
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "b1d05cdb80ca68acf6e2898b6cddabcac41cb62fcad3b12fee58177c1b931edc"
+    },
+    {
+      "file": "17_ending.svg",
+      "path": "/Users/liutongsheng/Downloads/my_project/machine_learn_homework/projects/cs2_index_talk_20261123/svg_output/17_ending.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): hero-slogan:font-size None -> '120'; hero-slogan:font-weight None -> 'bold'; text[36]:font-size '120' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 8,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "2041f42dade36aecbfb6f45541441fbd432e887d807aa083132667d5190a78b9"
+    }
+  ]
+}

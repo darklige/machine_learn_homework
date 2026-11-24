@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#E5484D" stroke-opacity="0.7" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 780 104">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#E5484D" font-weight="bold">ROUND 12 · 真正的庄家</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">2025-10-22：<tspan fill="#E5484D">V 社一刀</tspan></text>
+  </g>
+  <g id="crash-kpi" data-pptx-bounds="56 148 380 300">
+    <text x="56" y="180" font-size="20" fill="#8B98A9">汰换规则更新（俗称“5 合 1”）后<tspan x="56" dy="34">两天的对数收益</tspan></text>
+    <text x="56" y="292" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D">−57.9%</text>
+    <text x="56" y="364" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D">−35.8%</text>
+    <text x="56" y="420" font-size="20" fill="#E6EDF3">10-25 反弹 <tspan font-family="Consolas, Microsoft YaHei, monospace" font-weight="bold" fill="#3FB950">+31.2%</tspan></text>
+  </g>
+  <g id="shock-panel" data-pptx-bounds="456 148 768 432">
+    <rect x="456" y="148" width="768" height="432" rx="4" fill="#F4F6F8"/>
+    <rect x="456" y="148" width="768" height="30" rx="4" fill="#1C232D"/>
+    <text x="470" y="169" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">fig · 汰换规则更新前后：提前 7 天预测与误差</text>
+    <image href="../images/fig_shock_tradeup.png" x="468" y="184" width="744" height="388" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+<g id="p12-fine-callout" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="wedgeRoundRectCallout" data-pptx-frame="866 58 206 40" data-pptx-av-adj1="val 62000" data-pptx-av-adj2="val 10000" fill="#1C232D" stroke="#F5A623" stroke-width="1">
+<path d="M 866 64.67 A 6.67 6.67 0 0 1 872.67 58 L 986.17 58 L 986.17 58 L 1037.67 58 L 1065.33 58 A 6.67 6.67 0 0 1 1072 64.67 L 1072 81.33 L 1096.72 82 L 1072 91.33 L 1072 91.33 A 6.67 6.67 0 0 1 1065.33 98 L 1037.67 98 L 986.17 98 L 986.17 98 L 872.67 98 A 6.67 6.67 0 0 1 866 91.33 L 866 91.33 L 866 81.33 L 866 81.33 Z"/>
+</g>
+  <g id="meme-fine" data-pptx-bounds="860 14 356 132">
+    <g transform="rotate(4 1150 80)">
+      <rect x="1094" y="26" width="112" height="112" fill="#E6EDF3"/>
+      <image href="../images/meme_this_is_fine.jpg" x="1099" y="31" width="102" height="102" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+    <text x="969" y="84" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" font-weight="bold" fill="#F5A623" text-anchor="middle">模型：This is fine.</text>
+  </g>
+  <g id="shock-facts" data-pptx-bounds="56 460 380 120">
+    <line x1="56" y1="468" x2="436" y2="468" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="504" font-size="20" fill="#E6EDF3">冲击窗口 h=7 MAPE</text>
+    <text x="56" y="536" font-size="20" fill="#E6EDF3">持平 <tspan font-family="Consolas, Microsoft YaHei, monospace" font-weight="bold">56.99%</tspan> · LightGBM <tspan font-family="Consolas, Microsoft YaHei, monospace" font-weight="bold">58.35%</tspan></text>
+    <text x="56" y="568" font-size="20" fill="#8B98A9">事先没有任何公告，谁都没躲开</text>
+  </g>
+  <g id="takeaway" data-pptx-bounds="56 592 1168 64">
+    <rect x="56" y="592" width="1168" height="64" rx="4" fill="#E5484D" fill-opacity="0.1"/>
+    <use data-icon="tabler-filled/flame" x="76" y="608" width="32" height="32" fill="#E5484D"/>
+    <text x="120" y="633" font-size="28" fill="#E6EDF3">反弹到约 1300 后一路跌到 607，比更新前的 1660 低 63%——<tspan fill="#E5484D" font-weight="bold">价格由开发者决定</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">2025-07 ~ 2026-01 滚动预测，每 7 天重训；事件特征只能帮模型在冲击后稍快适应</text>
+    <text x="1224" y="696" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9" text-anchor="end">12 / 17</text>
+  </g>
+</svg>

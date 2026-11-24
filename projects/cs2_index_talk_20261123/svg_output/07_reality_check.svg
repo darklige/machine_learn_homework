@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 07 · 对局：结果与反转</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">07 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">先别急着鼓掌</text>
+  </g>
+  <g id="gain-legend" data-pptx-bounds="120 140 600 30">
+    <rect x="120" y="148" width="18" height="18" fill="#F5A623"/>
+    <text x="146" y="164" font-size="20" fill="#E6EDF3">测试段（单边下跌）</text>
+    <rect x="360" y="148" width="18" height="18" fill="#4CC2FF"/>
+    <text x="386" y="164" font-size="20" fill="#E6EDF3">近两年整体（2025-01 起）</text>
+  </g>
+  <g id="gain-compare" data-pptx-replace-with="chart" data-pptx-bounds="56 176 680 440" data-pptx-fallback-sha256="ad4ace9a3fdf984b56859e40f1b7ada7e137a0c1f37c5847cbd4ef3320e26f69">
+    <metadata type="application/json">{"name": "gain-compare", "x": 56, "y": 176, "width": 680, "height": 440, "type": "column", "grouping": "clustered", "plot_area": {"x": 120, "y": 180, "width": 600, "height": 380}, "gap_width": 112, "overlap": 0, "categories": ["随机森林 h=1", "KNN h=7", "KNN h=30"], "series": [{"name": "测试段", "values": [16.5, 30.5, 52.7]}, {"name": "近两年整体", "values": [4.4, 6.2, 10.1]}], "data_labels": {"show_value": true, "position": "outside_end", "number_format": "0.0\"%\"", "font_size": 20, "bold": true, "color": "#E6EDF3"}, "axes": {"value": {"visible": false, "minimum": 0, "maximum": 60, "major_gridlines": false}, "category": {"visible": true}}, "style": {"colors": ["#F5A623", "#4CC2FF"], "text_color": "#E6EDF3", "axis_color": "#2D3742", "chart_area_fill": "none", "plot_area_fill": "none", "font_size": 20}}</metadata>
+    <g id="gain-compare-chartArea">
+      <line id="gain-compare-axis" x1="120" y1="560" x2="720" y2="560" stroke="#2D3742" stroke-width="1"/>
+      <g font-size="20" fill="#E6EDF3" text-anchor="middle">
+        <text x="220" y="592">随机森林 h=1</text>
+        <text x="420" y="592">KNN h=7</text>
+        <text x="620" y="592">KNN h=30</text>
+      </g>
+      <!-- chart-plot-area: object=gain-compare | 120,180,720,560 -->
+      <rect x="156" y="455.5" width="64" height="104.5" fill="#F5A623"/>
+      <rect x="220" y="532.1" width="64" height="27.9" fill="#4CC2FF"/>
+      <rect x="356" y="366.8" width="64" height="193.2" fill="#F5A623"/>
+      <rect x="420" y="520.7" width="64" height="39.3" fill="#4CC2FF"/>
+      <rect x="556" y="226.2" width="64" height="333.8" fill="#F5A623"/>
+      <rect x="620" y="496" width="64" height="64" fill="#4CC2FF"/>
+      <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#E6EDF3" text-anchor="middle">
+        <text x="188" y="445">16.5%</text>
+        <text x="252" y="522">4.4%</text>
+        <text x="388" y="357">30.5%</text>
+        <text x="452" y="511">6.2%</text>
+        <text x="588" y="216">52.7%</text>
+        <text x="652" y="486">10.1%</text>
+      </g>
+    </g>
+  </g>
+  <g id="punchline" data-pptx-bounds="780 150 444 250">
+    <text x="780" y="190" font-size="30" fill="#8B98A9">模型学会了一句话：</text>
+    <text x="780" y="300" font-size="88" font-weight="bold" fill="#E5484D">继续跌。</text>
+    <text x="780" y="356" font-size="28" fill="#E6EDF3">测试段指数 <tspan font-family="Consolas, Microsoft YaHei, monospace" font-weight="bold" fill="#E5484D">918 → 607</tspan></text>
+  </g>
+  <g id="evidence" data-pptx-bounds="780 410 444 236">
+    <line x1="780" y1="420" x2="1224" y2="420" stroke="#2D3742" stroke-width="1"/>
+    <text x="780" y="460" font-size="20" fill="#E6EDF3">· 81% 的 7 天收益为负</text>
+    <text x="780" y="500" font-size="20" fill="#E6EDF3">· KNN 方向准确率：h=7 85.2%，h=30 100%</text>
+    <text x="780" y="540" font-size="20" fill="#E6EDF3">· 含暴跌的 2025H2，h=30 KNN 反而差 3.8%</text>
+    <text x="780" y="600" font-size="20" fill="#F5A623" font-weight="bold">大盘多数时候接近随机游走，<tspan x="780" dy="32">大幅领先只出现在持续趋势里</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">柱高 = MAPE 相对持平基线的降幅；近两年整体为 2025-01 起的滚动前向评估（extended_eval.csv）</text>
+  </g>
+</svg>

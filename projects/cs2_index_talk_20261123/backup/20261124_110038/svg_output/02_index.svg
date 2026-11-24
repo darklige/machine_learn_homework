@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 02 · 开局：认识对手</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">02 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">被预测对象：一台三年过山车</text>
+  </g>
+  <g id="index-3y" data-pptx-bounds="40 150 920 490">
+    <g id="index-3y-chartArea">
+      <g id="index-3y-grid" stroke="#2D3742" stroke-width="1">
+        <line x1="96" y1="176" x2="900" y2="176"/>
+        <line x1="96" y1="305.2" x2="900" y2="305.2"/>
+        <line x1="96" y1="434.5" x2="900" y2="434.5"/>
+        <line x1="96" y1="563.7" x2="900" y2="563.7"/>
+      </g>
+      <line id="index-3y-axis-x" x1="96" y1="596" x2="900" y2="596" stroke="#8B98A9" stroke-width="1"/>
+      <g font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">
+        <text x="86" y="182" text-anchor="end">1800</text>
+        <text x="86" y="311" text-anchor="end">1400</text>
+        <text x="86" y="440" text-anchor="end">1000</text>
+        <text x="86" y="569" text-anchor="end">600</text>
+        <text x="123.9" y="620" text-anchor="middle">2024-01</text>
+        <text x="392.9" y="620" text-anchor="middle">2025-01</text>
+        <text x="661.2" y="620" text-anchor="middle">2026-01</text>
+      </g>
+      <!-- chart-plot-area: object=index-3y | 96,176,900,596 -->
+      <path id="index-3y-line" d="M96.0 479.8 L99.7 459.2 L103.3 454.8 L107.0 452.6 L110.7 461.2 L114.4 464.3 L118.0 469.8 L121.7 470.2 L125.4 466.0 L129.1 463.1 L132.7 464.0 L136.4 464.9 L140.1 465.5 L143.8 468.3 L147.4 469.1 L151.1 463.1 L154.8 456.8 L158.5 455.1 L162.1 443.4 L165.8 430.3 L169.5 431.7 L173.2 433.8 L176.8 429.8 L180.5 425.3 L184.2 426.4 L187.9 425.9 L191.5 425.3 L195.2 420.8 L198.9 417.4 L202.6 422.5 L206.2 418.9 L209.9 413.0 L213.6 414.3 L217.3 412.7 L220.9 401.7 L224.6 405.5 L228.3 418.0 L232.0 414.7 L235.6 418.9 L239.3 431.8 L243.0 431.3 L246.7 428.5 L250.3 429.5 L254.0 426.2 L257.7 426.9 L261.4 430.0 L265.0 435.5 L268.7 433.9 L272.4 433.7 L276.1 430.3 L279.7 428.8 L283.4 429.5 L287.1 430.1 L290.8 428.6 L294.4 426.0 L298.1 427.7 L301.8 427.5 L305.5 425.6 L309.1 425.3 L312.8 426.1 L316.5 425.3 L320.1 426.2 L323.8 429.2 L327.5 428.9 L331.2 433.4 L334.8 432.5 L338.5 430.0 L342.2 431.3 L345.9 431.7 L349.5 430.7 L353.2 431.6 L356.9 431.5 L360.6 426.7 L364.2 424.1 L367.9 426.4 L371.6 426.9 L375.3 428.3 L378.9 433.0 L382.6 430.0 L386.3 426.5 L390.0 424.7 L393.6 420.2 L397.3 420.4 L401.0 420.3 L404.7 417.7 L408.3 417.2 L412.0 413.9 L415.7 409.6 L419.4 404.9 L423.0 403.8 L426.7 390.8 L430.4 383.3 L434.1 388.3 L437.7 384.7 L441.4 373.3 L445.1 362.1 L448.8 360.1 L452.4 369.4 L456.1 366.1 L459.8 357.7 L463.5 356.7 L467.1 339.4 L470.8 338.0 L474.5 318.6 L478.2 314.6 L481.8 271.2 L484.8 193.0 L485.5 229.8 L489.2 331.9 L492.9 327.6 L496.5 313.1 L500.2 300.5 L503.9 289.9 L507.6 296.2 L511.2 298.6 L514.9 300.6 L518.6 302.3 L522.3 292.6 L525.9 278.6 L529.6 281.1 L533.3 280.9 L537.0 284.6 L540.6 337.4 L544.3 304.4 L548.0 306.6 L551.6 315.7 L555.3 318.9 L559.0 312.5 L562.7 300.5 L566.3 294.6 L570.0 277.3 L573.7 259.3 L577.4 252.2 L581.0 247.2 L584.7 243.9 L588.4 253.3 L592.1 244.9 L595.7 240.7 L599.4 234.3 L603.1 225.3 L606.8 222.7 L609.0 220.4 L609.7 456.4 L610.4 547.0 L611.2 470.0 L611.9 475.1 L614.1 479.1 L617.8 372.3 L621.5 369.8 L625.1 370.7 L628.8 376.7 L632.5 366.4 L636.2 342.1 L639.8 330.7 L643.5 340.5 L647.2 338.3 L650.9 342.2 L654.5 350.5 L658.2 358.2 L661.9 353.9 L665.6 356.8 L669.2 372.5 L672.9 378.0 L676.6 392.5 L680.3 395.4 L683.9 392.2 L687.6 404.2 L691.3 398.2 L695.0 382.9 L698.6 387.1 L702.3 388.2 L706.0 381.1 L709.7 375.5 L713.3 383.6 L717.0 381.9 L720.7 399.0 L724.4 402.1 L728.0 403.4 L731.7 410.9 L735.4 412.5 L739.1 425.0 L742.7 435.4 L746.4 433.1 L750.1 428.6 L753.8 437.8 L757.4 459.0 L761.1 459.5 L764.8 480.2 L768.4 492.8 L772.1 479.9 L775.8 448.0 L779.5 454.4 L783.1 451.7 L786.8 461.1 L790.5 450.0 L794.2 456.3 L797.8 458.3 L801.5 457.9 L805.2 463.6 L808.9 468.6 L812.5 466.8 L816.2 473.1 L819.9 479.4 L823.6 478.9 L827.2 485.8 L830.9 494.3 L834.6 491.0 L838.3 483.2 L841.9 484.7 L845.6 489.6 L849.3 492.7 L853.0 498.0 L856.6 500.8 L860.3 502.5 L864.0 507.4 L867.7 523.7 L871.3 527.4 L875.0 528.0 L878.7 527.3 L882.4 532.2 L886.0 536.3 L889.7 537.1 L893.4 545.8 L897.1 553.1 L900.0 561.3" fill="none" stroke="#F5A623" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <line id="index-3y-shock" x1="609.5" y1="176" x2="609.5" y2="596" stroke="#E5484D" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <circle id="index-3y-peak" cx="484.8" cy="193" r="6" fill="#F5A623"/>
+    <circle id="index-3y-end" cx="900" cy="561.3" r="6" fill="#E5484D"/>
+    <g font-size="20">
+      <text x="472" y="200" fill="#F5A623" text-anchor="end">最高 1747.5 · 2025-05-06</text>
+      <text x="620" y="200" fill="#E5484D">2025-10-22 汰换规则更新</text>
+      <text x="622" y="560" fill="#E5484D">两天暴跌，随后反弹</text>
+    </g>
+    <text x="908" y="568" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" font-weight="bold" fill="#E5484D">607</text>
+  </g>
+  <g id="kpi-column" data-pptx-bounds="972 150 252 490">
+    <text x="972" y="174" font-size="20" fill="#8B98A9">最高点</text>
+    <text x="972" y="232" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#F5A623">1747.5</text>
+    <text x="972" y="260" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">2025-05-06</text>
+    <text x="972" y="310" font-size="20" fill="#8B98A9">最新收盘 · 三年最低</text>
+    <text x="972" y="368" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D">607.4</text>
+    <text x="972" y="396" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">2026-11-22 · 较最高点 −65%</text>
+    <line x1="972" y1="424" x2="1224" y2="424" stroke="#2D3742" stroke-width="1"/>
+    <text x="972" y="460" font-size="20" fill="#8B98A9">年化波动率</text>
+    <text x="972" y="518" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E6EDF3">50%</text>
+    <text x="972" y="566" font-size="20" fill="#E6EDF3">日收益偏度 −10.6</text>
+    <text x="972" y="596" font-size="20" fill="#E6EDF3">峰度 268.5：<tspan fill="#E5484D" font-weight="bold">严重厚尾</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">数据：SteamDT CS2 饰品大盘指数日收盘（北京时间），2023-11-24 ~ 2026-11-22，共 1095 天</text>
+  </g>
+</svg>

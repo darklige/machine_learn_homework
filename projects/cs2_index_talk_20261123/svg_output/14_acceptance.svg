@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#E5484D" stroke-opacity="0.7" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#E5484D" font-weight="bold">ROUND 14 · 真正的庄家</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">14 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">对账：说到的做到了几项</text>
+  </g>
+  <g id="acceptance" data-pptx-bounds="56 140 1168 512">
+    <rect x="56" y="140" width="1168" height="44" fill="#1C232D"/>
+    <g font-size="20" fill="#8B98A9">
+      <text x="72" y="170">计划书目标</text>
+      <text x="452" y="170">结果</text>
+      <text x="1072" y="170">状态</text>
+    </g>
+    <g stroke="#2D3742" stroke-width="1">
+      <line x1="56" y1="184" x2="1224" y2="184"/>
+      <line x1="56" y1="262" x2="1224" y2="262"/>
+      <line x1="56" y1="340" x2="1224" y2="340"/>
+      <line x1="56" y1="418" x2="1224" y2="418"/>
+      <line x1="56" y1="496" x2="1224" y2="496"/>
+      <line x1="56" y1="574" x2="1224" y2="574"/>
+      <line x1="56" y1="652" x2="1224" y2="652"/>
+    </g>
+    <g font-size="20" fill="#E6EDF3">
+      <text x="72" y="216">数据：≥ 200 件饰品、≥ 2 年<tspan x="72" dy="28">缺失率 &lt; 5%</tspan></text>
+      <text x="452" y="216">改为大盘指数单序列，1095 天（3 年）<tspan x="452" dy="28" fill="#8B98A9">单品数量因题目调整不适用</tspan></text>
+      <text x="72" y="294">7 天 MAPE 比持平降低 ≥ 15%<tspan x="72" dy="28">且通过 DM 检验</tspan></text>
+      <text x="452" y="294">KNN 降低 30.5%，DM p=0.001<tspan x="452" dy="28" fill="#8B98A9">主要来自单边下跌；近两年整体只降 6.2%</tspan></text>
+      <text x="72" y="372">分类准确率 ≥ 60%<tspan x="72" dy="28">Macro-F1 ≥ 0.55</tspan></text>
+      <text x="452" y="372">随机森林 66.4% / 0.292<tspan x="452" dy="28" fill="#8B98A9">准确率不如“永远预测跌”的 73.8%</tspan></text>
+      <text x="72" y="450">80% 区间覆盖率<tspan x="72" dy="28">75% ~ 85%</tspan></text>
+      <text x="452" y="450">校准后 88.4% / 92.6% / 91.3%<tspan x="452" dy="28" fill="#8B98A9">偏宽；未校准 87.1% / 74.5% / 62.7%</tspan></text>
+      <text x="72" y="528">SHAP 分析，≥ 3 条<tspan x="72" dy="28">有数据支撑的规律</tspan></text>
+      <text x="452" y="528">4 条规律，另辨析竞品特征的虚假重要性</text>
+      <text x="72" y="606">可交互演示系统</text>
+      <text x="452" y="606">Streamlit：预测、区间、SHAP、排行榜</text>
+    </g>
+    <g font-size="20" font-weight="bold">
+      <use data-icon="tabler-filled/alert-triangle" x="1072" y="204" width="24" height="24" fill="#8B98A9"/><text x="1104" y="223" fill="#8B98A9">部分适用</text>
+      <use data-icon="tabler-filled/circle-check" x="1072" y="282" width="24" height="24" fill="#3FB950"/><text x="1104" y="301" fill="#3FB950">达标</text>
+      <use data-icon="tabler-filled/circle-x" x="1072" y="360" width="24" height="24" fill="#E5484D"/><text x="1104" y="379" fill="#E5484D">未达标</text>
+      <use data-icon="tabler-filled/circle-x" x="1072" y="438" width="24" height="24" fill="#E5484D"/><text x="1104" y="457" fill="#E5484D">未达标</text>
+      <use data-icon="tabler-filled/circle-check" x="1072" y="516" width="24" height="24" fill="#3FB950"/><text x="1104" y="535" fill="#3FB950">达标</text>
+      <use data-icon="tabler-filled/circle-check" x="1072" y="594" width="24" height="24" fill="#3FB950"/><text x="1104" y="613" fill="#3FB950">达标</text>
+    </g>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">达标 3 项 · 未达标 2 项 · 因题目调整部分适用 1 项（报告第 15 节）</text>
+  </g>
+</svg>

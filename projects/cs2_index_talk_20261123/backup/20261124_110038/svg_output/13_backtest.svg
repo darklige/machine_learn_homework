@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#E5484D" stroke-opacity="0.7" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#E5484D" font-weight="bold">ROUND 13 · 真正的庄家</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">13 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">回测：最好的策略是少亏</text>
+  </g>
+  <g id="nav-panel" data-pptx-bounds="56 140 720 300">
+    <rect x="56" y="140" width="720" height="300" rx="4" fill="#F4F6F8"/>
+    <rect x="56" y="140" width="720" height="30" rx="4" fill="#1C232D"/>
+    <text x="70" y="161" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">fig · 测试段净值（单边费率 1%，只做多 / 空仓）</text>
+    <image href="../images/fig_backtest_nav.png" x="66" y="178" width="700" height="254" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="rule-card" data-pptx-bounds="808 140 416 300">
+    <text x="808" y="172" font-size="20" fill="#8B98A9">交易规则</text>
+    <text x="808" y="212" font-size="20" fill="#E6EDF3">h=7 预测收益 &gt; 0 → 次日持有<tspan x="808" dy="30">否则空仓，不能做空</tspan></text>
+    <line x1="808" y1="266" x2="1224" y2="266" stroke="#2D3742" stroke-width="1"/>
+    <text x="808" y="302" font-size="20" fill="#8B98A9">KNN（验证集最优）</text>
+    <text x="808" y="364" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E6EDF3">0.0%</text>
+    <text x="808" y="404" font-size="20" fill="#E6EDF3">一直预测跌，<tspan fill="#F5A623" font-weight="bold">从不持有</tspan></text>
+  </g>
+  <g id="backtest-fees" data-pptx-replace-with="table" data-pptx-bounds="56 456 1168 200" data-pptx-fallback-sha256="06f7b64db58b4c26fff598e377e1d22f562f496e365fc461eac096ccc9050764">
+    <metadata type="application/json">{"schema": "ppt-master.semantic-table.v2", "name": "backtest-fees", "x": 56, "y": 456, "width": 1168, "height": 200, "column_widths": [248, 184, 184, 184, 184, 184], "row_heights": [40, 40, 40, 40, 40], "style": {"font_family": "Microsoft YaHei", "font_size": 20, "header_fill": "#1C232D", "header_text": "#8B98A9", "body_text": "#E6EDF3", "band_row": false, "padding": 12}, "defaults": {"cell": {"borders": {"bottom": {"style": "solid", "color": "#2D3742", "width": 1}, "top": {"style": "none"}, "left": {"style": "none"}, "right": {"style": "none"}}}}, "columns": [{"text": "单边费率", "align": "l"}, {"text": "买入持有", "align": "r"}, {"text": "Ridge 信号", "align": "r"}, {"text": "LightGBM 信号", "align": "r"}, {"text": "KNN 信号", "align": "r"}, {"text": "随机 500 次", "align": "r"}], "rows": [[{"text": "0%", "align": "l"}, {"text": "−33.8%", "align": "r"}, {"text": "−1.6%", "align": "r", "color": "#3FB950", "bold": true}, {"text": "−17.6%", "align": "r"}, {"text": "0.0%", "align": "r"}, {"text": "−14.7%", "align": "r"}], [{"text": "1%", "align": "l"}, {"text": "−34.5%", "align": "r"}, {"text": "−9.2%", "align": "r", "color": "#3FB950", "bold": true}, {"text": "−29.2%", "align": "r"}, {"text": "0.0%", "align": "r"}, {"text": "−58.9%", "align": "r"}], [{"text": "2.5%", "align": "l"}, {"text": "−35.5%", "align": "r"}, {"text": "−19.7%", "align": "r", "color": "#3FB950", "bold": true}, {"text": "−43.7%", "align": "r"}, {"text": "0.0%", "align": "r"}, {"text": "−86.3%", "align": "r"}], [{"text": "13%（Steam 市场）", "align": "l", "color": "#E5484D", "bold": true, "fill": "#E5484D", "fill_opacity": 0.1}, {"text": "−42.4%", "align": "r", "color": "#E5484D", "fill": "#E5484D", "fill_opacity": 0.1}, {"text": "−67.7%", "align": "r", "color": "#E5484D", "fill": "#E5484D", "fill_opacity": 0.1}, {"text": "−89.8%", "align": "r", "color": "#E5484D", "fill": "#E5484D", "fill_opacity": 0.1}, {"text": "0.0%", "align": "r", "color": "#E5484D", "fill": "#E5484D", "fill_opacity": 0.1}, {"text": "−100.0%", "align": "r", "color": "#E5484D", "fill": "#E5484D", "fill_opacity": 0.1}]]}</metadata>
+    <rect x="56" y="456" width="1168" height="40" fill="#1C232D"/>
+    <rect x="56" y="616" width="1168" height="40" fill="#E5484D" fill-opacity="0.1"/>
+    <g stroke="#2D3742" stroke-width="1">
+      <line x1="56" y1="496" x2="1224" y2="496"/>
+      <line x1="56" y1="536" x2="1224" y2="536"/>
+      <line x1="56" y1="576" x2="1224" y2="576"/>
+      <line x1="56" y1="616" x2="1224" y2="616"/>
+      <line x1="56" y1="656" x2="1224" y2="656"/>
+    </g>
+    <g font-size="20" fill="#8B98A9">
+      <text x="68" y="483">单边费率</text>
+      <g text-anchor="end"><text x="476" y="483">买入持有</text><text x="660" y="483">Ridge 信号</text><text x="844" y="483">LightGBM 信号</text><text x="1028" y="483">KNN 信号</text><text x="1212" y="483">随机 500 次</text></g>
+    </g>
+    <g font-size="20" fill="#E6EDF3">
+      <text x="68" y="523">0%</text><text x="68" y="563">1%</text><text x="68" y="603">2.5%</text>
+      <g text-anchor="end">
+        <text x="476" y="523">−33.8%</text><text x="660" y="523" fill="#3FB950" font-weight="bold">−1.6%</text><text x="844" y="523">−17.6%</text><text x="1028" y="523">0.0%</text><text x="1212" y="523">−14.7%</text>
+        <text x="476" y="563">−34.5%</text><text x="660" y="563" fill="#3FB950" font-weight="bold">−9.2%</text><text x="844" y="563">−29.2%</text><text x="1028" y="563">0.0%</text><text x="1212" y="563">−58.9%</text>
+        <text x="476" y="603">−35.5%</text><text x="660" y="603" fill="#3FB950" font-weight="bold">−19.7%</text><text x="844" y="603">−43.7%</text><text x="1028" y="603">0.0%</text><text x="1212" y="603">−86.3%</text>
+      </g>
+    </g>
+    <g font-size="20" fill="#E5484D">
+      <text x="68" y="643" font-weight="bold">13%（Steam 市场）</text>
+      <g text-anchor="end"><text x="476" y="643">−42.4%</text><text x="660" y="643">−67.7%</text><text x="844" y="643">−89.8%</text><text x="1028" y="643">0.0%</text><text x="1212" y="643">−100.0%</text></g>
+    </g>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">测试段 2026-06-20 ~ 11-22；指数本身不可交易，回测只检验信号价值。单边下跌里只能做多，最好结果就是少亏</text>
+  </g>
+</svg>

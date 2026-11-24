@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 08 · 对局：结果与反转</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">08 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">越近越准：1 天误差只有 0.5%</text>
+  </g>
+  <g id="pred-panel" data-pptx-bounds="56 136 640 520">
+    <rect x="56" y="136" width="640" height="520" rx="4" fill="#F4F6F8"/>
+    <rect x="56" y="136" width="640" height="30" rx="4" fill="#1C232D"/>
+    <text x="70" y="157" font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#8B98A9">fig · 测试集：提前 1 / 7 / 30 天预测 vs 真实值</text>
+    <image href="../images/fig_pred_test_all_h.png" x="72" y="174" width="608" height="468" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="mape-ladder" data-pptx-bounds="736 140 488 360">
+    <text x="736" y="170" font-size="20" fill="#8B98A9">测试集 MAPE（验证集选出的模型）</text>
+    <text x="736" y="226" font-family="Consolas, Microsoft YaHei, monospace" font-size="28" fill="#E6EDF3">h=1</text>
+    <rect x="836" y="200" width="25" height="32" fill="#3FB950"/>
+    <text x="875" y="232" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#3FB950">0.50%</text>
+    <text x="736" y="326" font-family="Consolas, Microsoft YaHei, monospace" font-size="28" fill="#E6EDF3">h=7</text>
+    <rect x="836" y="300" width="84.5" height="32" fill="#F5A623"/>
+    <text x="935" y="332" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#F5A623">1.69%</text>
+    <text x="736" y="426" font-family="Consolas, Microsoft YaHei, monospace" font-size="28" fill="#E6EDF3">h=30</text>
+    <rect x="836" y="400" width="194" height="32" fill="#E5484D"/>
+    <text x="1044" y="432" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D">3.88%</text>
+    <text x="736" y="484" font-size="20" fill="#E6EDF3">看得越远，误差越大：短期预测确实有精度</text>
+  </g>
+  <g id="interval-note" data-pptx-bounds="736 516 488 140">
+    <rect x="736" y="516" width="488" height="140" rx="4" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="756" y="550" font-size="20" fill="#E6EDF3">h=1 多数树模型与融合模型比持平低 14%~17%，<tspan x="756" dy="30">DM 检验</tspan><tspan fill="#3FB950" font-weight="bold">显著</tspan></text>
+    <text x="756" y="626" font-size="20" fill="#8B98A9">80% 区间校准后覆盖 88.4% / 92.6% / 91.3%</text>
+    <text x="756" y="648" font-size="16" fill="#E5484D">目标 75%~85%：偏宽，未达标</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">h=1 加权平均（LightGBM、随机森林、决策树）；h=7 / h=30 为 KNN；阴影为 LightGBM 分位数 + CQR 的 80% 区间</text>
+  </g>
+</svg>

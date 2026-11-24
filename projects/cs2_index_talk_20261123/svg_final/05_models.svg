@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="stairArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#F5A623"/>
+    </marker>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 05 · 开局：认识对手</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">05 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">十五个模型，从“摆烂”到“融合”</text>
+  </g>
+  <g id="rule" data-pptx-bounds="56 150 560 148">
+    <text x="56" y="196" font-size="30" font-weight="bold" fill="#E6EDF3">只用经典机器学习</text>
+    <text x="56" y="244" font-size="28" fill="#E6EDF3">所有调参与选模，<tspan fill="#F5A623" font-weight="bold">只看验证集</tspan></text>
+    <text x="56" y="290" font-size="20" fill="#8B98A9">目标：验证段滚动预测 MAE / 分类 Macro-F1</text>
+  </g>
+  <line id="stair-direction" data-pptx-role="decoration" x1="136" y1="400" x2="1130" y2="150" stroke="#F5A623" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="8,4" marker-end="url(#stairArrow)"/>
+  <g id="tier-0" data-pptx-bounds="56 420 160 170">
+    <rect x="56" y="420" width="160" height="170" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="72" y="452" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#8B98A9">基线</text>
+    <g font-size="20" fill="#E6EDF3"><text x="72" y="486">持平 ŷ=0</text><text x="72" y="514">均值漂移</text><text x="72" y="542">7 日均线</text></g>
+  </g>
+  <g id="tier-1" data-pptx-bounds="224 380 160 210">
+    <rect x="224" y="380" width="160" height="210" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="240" y="412" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#4CC2FF">线性</text>
+    <g font-size="20" fill="#E6EDF3"><text x="240" y="446">线性回归</text><text x="240" y="474">Ridge · Lasso</text><text x="240" y="502">ElasticNet</text></g>
+  </g>
+  <g id="tier-2" data-pptx-bounds="392 340 160 250">
+    <rect x="392" y="340" width="160" height="250" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="408" y="372" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#4CC2FF">近邻 · 核</text>
+    <g font-size="20" fill="#E6EDF3"><text x="408" y="406">PCA + KNN</text><text x="408" y="434">SVR（RBF）</text></g>
+  </g>
+  <g id="tier-3" data-pptx-bounds="560 300 160 290">
+    <rect x="560" y="300" width="160" height="290" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="576" y="332" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#4CC2FF">树</text>
+    <g font-size="20" fill="#E6EDF3"><text x="576" y="366">决策树</text><text x="576" y="394">随机森林</text></g>
+  </g>
+  <g id="tier-4" data-pptx-bounds="728 260 160 330">
+    <rect x="728" y="260" width="160" height="330" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="744" y="292" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#4CC2FF">梯度提升</text>
+    <g font-size="20" fill="#E6EDF3"><text x="744" y="326">XGBoost</text><text x="744" y="354">LightGBM</text><text x="744" y="382">CatBoost</text></g>
+    <text x="744" y="416" font-size="16" fill="#8B98A9">Optuna 调参</text>
+  </g>
+  <g id="tier-5" data-pptx-bounds="896 220 160 370">
+    <rect x="896" y="220" width="160" height="370" fill="#1C232D" stroke="#F5A623" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="912" y="252" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#F5A623">融合</text>
+    <g font-size="20" fill="#E6EDF3"><text x="912" y="286">加权平均</text><text x="912" y="314">Stacking</text></g>
+    <text x="912" y="348" font-size="16" fill="#8B98A9">凸组合权重</text>
+  </g>
+  <g id="tier-6" data-pptx-bounds="1064 180 160 410">
+    <rect x="1064" y="180" width="160" height="410" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="1080" y="212" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#3FB950">区间</text>
+    <g font-size="20" fill="#E6EDF3"><text x="1080" y="246">分位数回归</text><text x="1080" y="274">+ CQR 校准</text></g>
+    <text x="1080" y="308" font-size="16" fill="#8B98A9">目标 80% 覆盖</text>
+  </g>
+  <g id="stacking-crash" data-pptx-bounds="56 600 1168 56">
+    <!-- icon: tabler-filled/flame -->
+  <g transform="translate(56, 610) scale(1.33333)" fill="#E5484D">
+    <path d="M10 2c0 -.88 1.056 -1.331 1.692 -.722c1.958 1.876 3.096 5.995 1.75 9.12l-.08 .174l.012 .003c.625 .133 1.203 -.43 2.303 -2.173l.14 -.224a1 1 0 0 1 1.582 -.153c1.334 1.435 2.601 4.377 2.601 6.27c0 4.265 -3.591 7.705 -8 7.705s-8 -3.44 -8 -7.706c0 -2.252 1.022 -4.716 2.632 -6.301l.605 -.589c.241 -.236 .434 -.43 .618 -.624c1.43 -1.512 2.145 -2.924 2.145 -4.78" />
+  </g>
+    <text x="100" y="634" font-size="20" fill="#E6EDF3"><tspan fill="#E5484D" font-weight="bold">翻车记录：</tspan>第一版 Stacking 给 KNN 的系数到了 3.1，h=7 比持平基线还差 29%；改成凸组合后恢复正常</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">回归 15 个（含 3 个基线、2 个融合）；分类另有多数类、动量基线与软投票</text>
+  </g>
+</svg>

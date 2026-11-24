@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 04 · 开局：认识对手</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">04 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">75 个特征，和一个被开除的“几号”</text>
+  </g>
+  <g id="feature-groups" data-pptx-replace-with="chart" data-pptx-bounds="40 140 716 500" data-pptx-fallback-sha256="152316a44599f01eb1d052febfc28c566b42df14c1db4133327211363d0f1e54">
+    <metadata type="application/json">{"name": "feature-groups", "x": 40, "y": 140, "width": 716, "height": 500, "type": "bar", "grouping": "clustered", "plot_area": {"x": 236, "y": 160, "width": 480, "height": 450}, "gap_width": 76, "categories": ["price 价格", "event 事件", "volume 成交量", "competitor 竞品", "players 在线人数", "regime 市场状态", "fx 汇率", "calendar 日历"], "series": [{"name": "特征数量", "values": [33, 11, 10, 10, 7, 3, 2, 2], "point_colors": ["#F5A623", "#4CC2FF", "#4CC2FF", "#4CC2FF", "#4CC2FF", "#4CC2FF", "#4CC2FF", "#4CC2FF"]}], "data_labels": {"show_value": true, "position": "outside_end", "font_size": 20, "bold": true, "color": "#E6EDF3"}, "axes": {"value": {"visible": false, "minimum": 0, "maximum": 37.7, "major_gridlines": false}, "category": {"visible": true}}, "style": {"text_color": "#E6EDF3", "axis_color": "#2D3742", "chart_area_fill": "none", "plot_area_fill": "none", "font_size": 20}}</metadata>
+    <g id="feature-groups-chartArea">
+      <line id="feature-groups-axis" x1="236" y1="160" x2="236" y2="610" stroke="#2D3742" stroke-width="1"/>
+      <g font-size="20" fill="#E6EDF3" text-anchor="end">
+        <text x="224" y="195">price 价格</text>
+        <text x="224" y="251">event 事件</text>
+        <text x="224" y="307">volume 成交量</text>
+        <text x="224" y="364">competitor 竞品</text>
+        <text x="224" y="420">players 在线人数</text>
+        <text x="224" y="476">regime 市场状态</text>
+        <text x="224" y="532">fx 汇率</text>
+        <text x="224" y="589">calendar 日历</text>
+      </g>
+      <!-- chart-plot-area: object=feature-groups | 236,160,716,610 -->
+      <rect x="236" y="172.1" width="420.0" height="32" fill="#F5A623"/>
+      <rect x="236" y="228.4" width="140.0" height="32" fill="#4CC2FF"/>
+      <rect x="236" y="284.6" width="127.3" height="32" fill="#4CC2FF"/>
+      <rect x="236" y="340.9" width="127.3" height="32" fill="#4CC2FF"/>
+      <rect x="236" y="397.1" width="89.1" height="32" fill="#4CC2FF"/>
+      <rect x="236" y="453.4" width="38.2" height="32" fill="#4CC2FF"/>
+      <rect x="236" y="509.6" width="25.5" height="32" fill="#4CC2FF"/>
+      <rect x="236" y="565.9" width="25.5" height="32" fill="#4CC2FF"/>
+      <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#E6EDF3">
+        <text x="666.0" y="195">33</text>
+        <text x="386.0" y="251">11</text>
+        <text x="373.3" y="307">10</text>
+        <text x="373.3" y="364">10</text>
+        <text x="335.1" y="420">7</text>
+        <text x="284.2" y="476">3</text>
+        <text x="271.5" y="532">2</text>
+        <text x="271.5" y="589">2</text>
+      </g>
+    </g>
+  </g>
+  <g id="principle" data-pptx-bounds="776 148 448 132">
+    <text x="776" y="178" font-size="20" fill="#8B98A9">原则</text>
+    <text x="776" y="218" font-size="28" fill="#E6EDF3">只用<tspan fill="#F5A623" font-weight="bold">收益率和比率</tspan>，</text>
+    <text x="776" y="258" font-size="28" fill="#E6EDF3">不放价格水平</text>
+  </g>
+  <g id="pitfall-card" data-pptx-bounds="776 296 448 340">
+    <rect x="776" y="296" width="448" height="340" rx="4" fill="#1C232D" stroke="#E5484D" stroke-opacity="0.6" stroke-width="1"/>
+    <use data-icon="tabler-filled/alert-triangle" x="800" y="316" width="32" height="32" fill="#E5484D"/>
+    <text x="844" y="342" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" font-weight="bold" fill="#E5484D">踩坑记录</text>
+    <text x="800" y="388" font-size="20" fill="#E6EDF3">“几号”曾在 h=7 的 SHAP 里排第 2<tspan x="800" dy="32">样本不足 3 年，模型在</tspan><tspan fill="#E5484D" font-weight="bold">背日历</tspan></text>
+    <text x="800" y="452" font-size="20" fill="#F5A623" font-weight="bold">→ 删掉，重跑</text>
+    <line x1="800" y1="478" x2="1200" y2="478" stroke="#2D3742" stroke-width="1"/>
+    <text x="800" y="514" font-size="20" fill="#E6EDF3">K-Means 本想分出“跌 / 震荡 / 涨”<tspan x="800" dy="32">结果只分出：暴跌 / 暴跌后修复 /</tspan><tspan x="800" dy="32">常态（1005 天都在“常态”）</tspan></text>
+    <text x="800" y="614" font-size="16" fill="#8B98A9">→ SHAP 与消融都显示它几乎没有贡献</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">特征定义见 src/features.py；所有滚动特征只用 t 日及以前的数据</text>
+  </g>
+</svg>

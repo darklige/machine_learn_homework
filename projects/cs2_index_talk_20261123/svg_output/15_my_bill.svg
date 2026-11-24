@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <clipPath id="clip-butterfly-a"><polygon points="56,140 232,140 232,400 56,400"/></clipPath>
+    <clipPath id="clip-butterfly-b"><polygon points="240,140 416,140 416,400 240,400"/></clipPath>
+    <clipPath id="clip-m9-a"><polygon points="452,140 628,140 628,400 452,400"/></clipPath>
+    <clipPath id="clip-m9-b"><polygon points="636,140 812,140 812,400 636,400"/></clipPath>
+    <clipPath id="clip-gloves-a"><polygon points="848,140 1024,140 1024,400 848,400"/></clipPath>
+    <clipPath id="clip-gloves-b"><polygon points="1032,140 1208,140 1208,400 1032,400"/></clipPath>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C"/>
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24"/><line x1="24" y1="24" x2="24" y2="60"/>
+    <line x1="1220" y1="24" x2="1256" y2="24"/><line x1="1256" y1="24" x2="1256" y2="60"/>
+    <line x1="24" y1="696" x2="60" y2="696"/><line x1="24" y1="660" x2="24" y2="696"/>
+    <line x1="1220" y1="696" x2="1256" y2="696"/><line x1="1256" y1="660" x2="1256" y2="696"/>
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 15 · 赛后复盘：写给想“理财”的你</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">15 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">我卖早了，所以我是股神？</text>
+  </g>
+  <g id="bill-butterfly" data-pptx-bounds="56 140 376 420">
+    <rect x="56" y="140" width="176" height="260" fill="#F4F6F8"/>
+    <image href="../images/butterfly_2022_sold.jpeg" x="56" y="10.3" width="279.3" height="607.2" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip-butterfly-a)"/>
+    <rect x="240" y="140" width="176" height="260" fill="#F4F6F8"/>
+    <image href="../images/butterfly_now.jpeg" x="240" y="70.5" width="279.3" height="607.2" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip-butterfly-b)"/>
+    <rect x="56" y="400" width="176" height="28" fill="#1C232D"/>
+    <rect x="240" y="400" width="176" height="28" fill="#E5484D"/>
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="16" font-weight="bold" text-anchor="middle">
+      <text x="144" y="420" fill="#E6EDF3">2022-08-25 卖出</text>
+      <text x="328" y="420" fill="#FFFFFF">2026-11 现价</text>
+    </g>
+    <text x="56" y="466" font-size="20" fill="#E6EDF3">蝴蝶刀 | 深红之网（久经）</text>
+    <text x="56" y="520" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" fill="#8B98A9">¥4990 → <tspan fill="#E6EDF3" font-weight="bold">¥3150</tspan></text>
+    <text x="416" y="534" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D" text-anchor="end">−37%</text>
+  </g>
+  <g id="bill-m9" data-pptx-bounds="452 140 376 420">
+    <rect x="452" y="140" width="176" height="260" fill="#F4F6F8"/>
+    <image href="../images/m9_2022_sold.jpeg" x="452" y="10.3" width="279.3" height="607.2" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip-m9-a)"/>
+    <rect x="636" y="140" width="176" height="260" fill="#F4F6F8"/>
+    <image href="../images/m9_now.jpeg" x="636" y="93.7" width="279.3" height="607.2" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip-m9-b)"/>
+    <rect x="452" y="400" width="176" height="28" fill="#1C232D"/>
+    <rect x="636" y="400" width="176" height="28" fill="#E5484D"/>
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="16" font-weight="bold" text-anchor="middle">
+      <text x="540" y="420" fill="#E6EDF3">2022-11-26 卖出</text>
+      <text x="724" y="420" fill="#FFFFFF">2026-11 现价</text>
+    </g>
+    <text x="452" y="466" font-size="20" fill="#E6EDF3">M9 刺刀 | 黑色层压板（久经）</text>
+    <text x="452" y="520" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" fill="#8B98A9">¥3920 → <tspan fill="#E6EDF3" font-weight="bold">¥2337.5</tspan></text>
+    <text x="812" y="534" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D" text-anchor="end">−40%</text>
+  </g>
+  <g id="bill-gloves" data-pptx-bounds="848 140 376 420">
+    <rect x="848" y="140" width="176" height="260" fill="#F4F6F8"/>
+    <image href="../images/gloves_2022_sold.jpeg" x="848" y="10.3" width="279.3" height="607.2" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip-gloves-a)"/>
+    <rect x="1032" y="140" width="176" height="260" fill="#F4F6F8"/>
+    <image href="../images/gloves_now.jpeg" x="1032" y="70.5" width="279.3" height="607.2" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip-gloves-b)"/>
+    <rect x="848" y="400" width="176" height="28" fill="#1C232D"/>
+    <rect x="1032" y="400" width="176" height="28" fill="#E5484D"/>
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="16" font-weight="bold" text-anchor="middle">
+      <text x="936" y="420" fill="#E6EDF3">2022-04-14 卖出</text>
+      <text x="1120" y="420" fill="#FFFFFF">2026-11 现价</text>
+    </g>
+    <text x="848" y="466" font-size="20" fill="#E6EDF3">专业手套 | 深红之网（久经）</text>
+    <text x="848" y="520" font-family="Consolas, Microsoft YaHei, monospace" font-size="20" fill="#8B98A9">¥2600 → <tspan fill="#E6EDF3" font-weight="bold">¥617.5</tspan></text>
+    <text x="1208" y="534" font-family="Consolas, Microsoft YaHei, monospace" font-size="56" font-weight="bold" fill="#E5484D" text-anchor="end">−76%</text>
+  </g>
+  <g id="bill-total" data-pptx-bounds="56 566 1168 92">
+    <rect x="56" y="566" width="1168" height="92" rx="4" fill="#1C232D" stroke="#2D3742" stroke-width="1"/>
+    <text x="80" y="604" font-size="20" fill="#8B98A9">三件合计 <tspan font-family="Consolas, Microsoft YaHei, monospace" fill="#E6EDF3">¥11510 → ¥6105</tspan>，<tspan fill="#E5484D" font-weight="bold">−47%</tspan>。看起来我躲过了一劫……</text>
+    <text x="80" y="640" font-size="28" fill="#E6EDF3">但躲过下跌是运气。<tspan fill="#F5A623" font-weight="bold">别信自己是股神，你也可能是下一个接盘的韭菜。</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="56 664 1168 42">
+    <line x1="56" y1="672" x2="1224" y2="672" stroke="#2D3742" stroke-width="1"/>
+    <text x="56" y="696" font-size="16" fill="#8B98A9">截图：主讲人的 BUFF 订单（商品合计）与 2026-11 在售页久经价格；跌幅按截图价格计算</text>
+  </g>
+</svg>

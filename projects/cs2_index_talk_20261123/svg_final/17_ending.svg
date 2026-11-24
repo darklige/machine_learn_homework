@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#12161C" />
+  <g id="hud-frame" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#F5A623" stroke-opacity="0.6" stroke-width="2">
+    <line x1="24" y1="24" x2="60" y2="24" /><line x1="24" y1="24" x2="24" y2="60" />
+    <line x1="1220" y1="24" x2="1256" y2="24" /><line x1="1256" y1="24" x2="1256" y2="60" />
+    <line x1="24" y1="696" x2="60" y2="696" /><line x1="24" y1="660" x2="24" y2="696" />
+    <line x1="1220" y1="696" x2="1256" y2="696" /><line x1="1256" y1="660" x2="1256" y2="696" />
+  </g>
+  <g id="header" data-pptx-bounds="56 36 1168 100">
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="20">
+      <text x="56" y="62" fill="#F5A623" font-weight="bold">ROUND 17 · GG</text>
+      <text x="1224" y="62" fill="#8B98A9" text-anchor="end">17 / 17</text>
+    </g>
+    <text x="56" y="116" font-size="44" font-weight="bold" fill="#E6EDF3">赛后总结</text>
+  </g>
+  <g id="point-1" data-pptx-bounds="56 150 640 130">
+    <text x="56" y="196" font-family="Consolas, Microsoft YaHei, monospace" font-size="32" font-weight="bold" fill="#F5A623">01</text>
+    <text x="116" y="196" font-size="28" font-weight="bold" fill="#E6EDF3">模型有一定精度，但优势不大</text>
+    <text font-size="20" fill="#E6EDF3" x="116" y="234">1 天预测比持平低 15.7% 且显著；近两年整体</text><text font-size="20" fill="#E6EDF3" x="116" y="262">只领先 4%~10%，大盘多数时候接近随机游走</text></g>
+  <g id="point-2" data-pptx-bounds="56 290 640 130">
+    <text x="56" y="336" font-family="Consolas, Microsoft YaHei, monospace" font-size="32" font-weight="bold" fill="#F5A623">02</text>
+    <text x="116" y="336" font-size="28" font-weight="bold" fill="#E6EDF3">比特币、黄金几乎无关，<tspan fill="#E5484D">V 社说了算</tspan></text>
+    <text font-size="20" fill="#E6EDF3" x="116" y="374">2025 年“5 合 1”更新后一路下跌；价格由开发者</text><text font-size="20" fill="#E6EDF3" x="116" y="402">决定，极易被操盘</text></g>
+  <g id="point-3" data-pptx-bounds="56 430 640 110">
+    <text x="56" y="476" font-family="Consolas, Microsoft YaHei, monospace" font-size="32" font-weight="bold" fill="#F5A623">03</text>
+    <text x="116" y="476" font-size="28" font-weight="bold" fill="#E6EDF3">不要相信暴富</text>
+    <text x="116" y="514" font-size="20" fill="#E6EDF3">饰品不是理财产品；和赌博一样</text>
+  </g>
+  <g id="closing-motif" data-pptx-bounds="736 424 500 208">
+    <path id="closing-line" d="M740.0 577.1 L745.4 563.3 L750.7 568.7 L756.1 570.9 L761.5 569.7 L766.9 569.8 L772.2 571.3 L777.6 565.3 L783.0 550.5 L788.4 552.3 L793.7 549.8 L799.1 548.4 L804.5 547.8 L809.9 542.6 L815.2 540.6 L820.6 545.5 L826.0 547.3 L831.4 550.5 L836.7 549.9 L842.1 554.3 L847.5 553.5 L852.9 550.9 L858.2 551.0 L863.6 550.7 L869.0 549.3 L874.4 549.2 L879.7 550.8 L885.1 553.0 L890.5 552.4 L895.9 552.1 L901.2 550.0 L906.6 550.0 L912.0 553.2 L917.4 549.8 L922.7 546.9 L928.1 545.3 L933.5 542.7 L938.9 538.0 L944.2 529.0 L949.6 525.2 L955.0 515.9 L960.4 519.9 L965.7 507.2 L971.1 488.8 L976.5 441.0 L976.9 430.4 L981.9 499.2 L987.2 481.5 L992.6 483.8 L998.0 486.8 L1003.4 474.1 L1008.7 477.3 L1014.1 487.9 L1019.5 494.3 L1024.9 485.7 L1030.2 467.9 L1035.6 458.1 L1041.0 459.3 L1046.4 451.6 L1051.7 448.7 L1052.2 449.0 L1052.6 444.4 L1053.1 565.1 L1053.5 611.4 L1054.0 572.1 L1054.4 574.7 L1057.1 527.1 L1062.5 521.3 L1067.9 515.1 L1073.2 502.2 L1078.6 506.6 L1084.0 515.0 L1089.4 522.2 L1094.7 534.6 L1100.1 539.2 L1105.5 527.0 L1110.9 528.4 L1116.2 527.9 L1121.6 535.5 L1127.0 541.5 L1132.4 548.0 L1137.7 551.2 L1143.1 566.5 L1148.5 578.7 L1153.9 564.3 L1159.2 563.0 L1164.6 561.2 L1170.0 565.9 L1175.4 569.0 L1180.7 577.1 L1186.1 581.6 L1191.5 580.6 L1196.9 582.1 L1202.2 587.5 L1207.6 590.3 L1213.0 601.7 L1218.4 604.1 L1223.7 606.4 L1229.1 616.5 L1230.0 618.8" fill="none" stroke="#F5A623" stroke-opacity="0.5" stroke-width="2" stroke-linejoin="round" />
+    <circle id="closing-end" cx="1230" cy="618.8" r="5" fill="#E5484D" />
+  </g>
+  <g id="hero-slogan" data-pptx-bounds="736 140 488 282">
+    <text x="736" y="250" font-size="120" font-weight="bold" fill="#F5A623">不赌</text>
+    <text x="736" y="370" font-size="120" font-weight="bold" fill="#E6EDF3">为赢</text>
+  </g>
+  <g id="thanks" data-pptx-bounds="56 580 640 76">
+    <line x1="56" y1="580" x2="696" y2="580" stroke="#2D3742" stroke-width="1" />
+    <text x="56" y="628" font-size="28" fill="#E6EDF3">谢谢聆听，欢迎提问</text>
+    <text x="320" y="628" font-size="20" fill="#8B98A9">刘同晟 · 潘旭 · 征安杰</text>
+  </g>
+</svg>
